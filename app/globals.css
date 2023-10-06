@@ -75,7 +75,9 @@
   }
 }
 
-
+.swiper-wrapper{
+  width: 0px;
+}
 
 .gradText1{
   background: linear-gradient(0deg, #3B29FF 50%, #FFF 107.76%);

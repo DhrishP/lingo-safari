@@ -48,9 +48,12 @@ export default function RolePage() {
   };
   return (
     <div>
-      <div className="mt-32 flex flex-col items-center gap-7">
+      <div className="mt-10 flex flex-col items-center gap-7">
+        <h1 className="z-10 text-center lg:text-6xl md:text-5xl text-4xl font-extrabold lg:w-[56rem] md:w-[40rem] w-[22rem] md:leading-normal leading-tight">
+          Lets <span className="gradText1 leading-snug">Break</span> the ice.
+        </h1>
         <div className="gradient1"></div>
-        <Card className="w-[350px] bg-opacity-50 bg-pruple-300">
+        <Card className="w-[350px] bg-opacity-10 bg-purple-300 rounded-xl border-gray-600">
           <CardHeader>
             <CardTitle>Tell us about yourself</CardTitle>
             <CardDescription></CardDescription>

@@ -23,17 +23,24 @@ model Questions {
   StatsId    String
   Stats      Stats?   @relation(fields: [statsId], references: [id])
   statsId    String?
+  Quiz       Quiz?    @relation(fields: [quizId], references: [id])
+  quizId     String?
 }
 
 model Stats {
-  id        String   @id @default(uuid())
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  score       Int
-  language    String
-  Questions   Questions[]
+  id        String      @id @default(uuid())
+  userId    String
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  Questions Questions[]
 }
 
-
-
-
+model Quiz {
+  id        String      @id @default(uuid())
+  userId    String
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  score     Int
+  language  String
+  Questions Questions[]
+}

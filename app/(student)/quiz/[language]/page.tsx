@@ -2,6 +2,7 @@
 import axios from "axios";
 import React from "react";
 import QuizCard from "./(components)/QuizCard";
+import Loading from "@/app/loading";
 
 import prisma from "@/prisma/client";
 import { redirect } from "next/navigation";

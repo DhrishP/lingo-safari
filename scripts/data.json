@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "statement": "The Hindi word for 'book' is ____.",
         "answer": "पुस्तक",
         "options": [
@@ -14,7 +13,6 @@
         "coins": 110
     },
     {
-        "id": 2,
         "statement": "Fill in the blank: I am going to the ____.",
         "answer": "store",
         "options": [
@@ -28,7 +26,6 @@
         "coins": 110
     },
     {
-        "id": 3,
         "statement": "What is the synonym of the Hindi word 'बड़ा' in English?",
         "answer": "big",
         "options": [
@@ -42,7 +39,6 @@
         "coins": 110
     },
     {
-        "id": 4,
         "statement": "Which of the following is NOT a color?",
         "answer": "love",
         "options": [
@@ -56,7 +52,6 @@
         "coins": 110
     },
     {
-        "id": 5,
         "statement": "What is the opposite of the word 'hot'?",
         "answer": "cold",
         "options": [
@@ -70,7 +65,6 @@
         "coins": 110
     },
     {
-        "id": 6,
         "statement": "The Hindi word for 'chair' is ____.",
         "answer": "कुर्सी",
         "options": [
@@ -84,7 +78,6 @@
         "coins": 110
     },
     {
-        "id": 7,
         "statement": "Fill in the blank: I am ____ years old.",
         "answer": "twenty",
         "options": [
@@ -98,7 +91,6 @@
         "coins": 110
     },
     {
-        "id": 8,
         "statement": "What is the synonym of the Hindi word 'छोटा' in English?",
         "answer": "small",
         "options": [
@@ -112,7 +104,6 @@
         "coins": 110
     },
     {
-        "id": 9,
         "statement": "Which of the following is a vegetable?",
         "answer": "carrot",
         "options": [
@@ -126,7 +117,6 @@
         "coins": 110
     },
     {
-        "id": 10,
         "statement": "What is the opposite of the word 'slow'?",
         "answer": "fast",
         "options": [
@@ -140,7 +130,6 @@
         "coins": 110
     },
     {
-        "id": 11,
         "statement": "The Hindi word for 'friend' is ____.",
         "answer": "दोस्त",
         "options": [
@@ -154,7 +143,6 @@
         "coins": 110
     },
     {
-        "id": 12,
         "statement": "Fill in the blank: I am going to the ____ to eat.",
         "answer": "restaurant",
         "options": [
@@ -168,7 +156,6 @@
         "coins": 110
     },
     {
-        "id": 13,
         "statement": "What is the synonym of the Hindi word 'मजबूत' in English?",
         "answer": "strong",
         "options": [
@@ -182,7 +169,6 @@
         "coins": 110
     },
     {
-        "id": 14,
         "statement": "Which of the following is a type of animal?",
         "answer": "dog",
         "options": [
@@ -196,7 +182,6 @@
         "coins": 110
     },
     {
-        "id": 15,
         "statement": "What is the opposite of the word 'happy'?",
         "answer": "sad",
         "options": [
@@ -210,7 +195,6 @@
         "coins": 110
     },
     {
-        "id": 16,
         "statement": "The Hindi word for 'house' is ____.",
         "answer": "घर",
         "options": [
@@ -224,7 +208,6 @@
         "coins": 110
     },
     {
-        "id": 17,
         "statement": "Fill in the blank: I am going to the ____ to see a doctor.",
         "answer": "hospital",
         "options": [
@@ -238,7 +221,6 @@
         "coins": 110
     },
     {
-        "id": 18,
         "statement": "What is the synonym of the Hindi word 'तेज' in English?",
         "answer": "fast",
         "options": [
@@ -252,7 +234,6 @@
         "coins": 110
     },
     {
-        "id": 19,
         "statement": "Which of the following is a type of food?",
         "answer": "pizza",
         "options": [
@@ -266,7 +247,6 @@
         "coins": 110
     },
     {
-        "id": 20,
         "statement": "What is the opposite of the word 'new'?",
         "answer": "old",
         "options": [
@@ -280,7 +260,6 @@
         "coins": 110
     },
     {
-        "id": 21,
         "statement": "The Hindi word for 'family' is ____.",
         "answer": "परिवार",
         "options": [
@@ -294,7 +273,6 @@
         "coins": 110
     },
     {
-        "id": 22,
         "statement": "Fill in the blank: I am going to the ____ to buy food.",
         "answer": "grocery store",
         "options": [
@@ -308,7 +286,6 @@
         "coins": 110
     },
     {
-        "id": 23,
         "statement": "What is the synonym of the Hindi word 'चालाक' in English?",
         "answer": "clever",
         "options": [
@@ -322,7 +299,6 @@
         "coins": 110
     },
     {
-        "id": 24,
         "statement": "Which of the following is a type of vehicle?",
         "answer": "car",
         "options": [
@@ -336,7 +312,6 @@
         "coins": 110
     },
     {
-        "id": 25,
         "statement": "What is the opposite of the word 'cold'?",
         "answer": "hot",
         "options": [
@@ -350,7 +325,6 @@
         "coins": 110
     },
     {
-        "id": 26,
         "statement": "The Hindi word for 'teacher' is ____.",
         "answer": "शिक्षक",
         "options": [
@@ -364,7 +338,6 @@
         "coins": 110
     },
     {
-        "id": 27,
         "statement": "Fill in the blank: I am going to the ____ to learn.",
         "answer": "school",
         "options": [
@@ -378,7 +351,6 @@
         "coins": 110
     },
     {
-        "id": 28,
         "statement": "What is the synonym of the Hindi word 'मुश्किल' in English?",
         "answer": "difficult",
         "options": [
@@ -392,7 +364,6 @@
         "coins": 110
     },
     {
-        "id": 29,
         "statement": "Which of the following is a type of fruit?",
         "answer": "apple",
         "options": [
@@ -406,7 +377,6 @@
         "coins": 110
     },
     {
-        "id": 30,
         "statement": "What is the opposite of the word 'black'?",
         "answer": "white",
         "options": [
@@ -420,7 +390,6 @@
         "coins": 110
     },
     {
-        "id": 31,
         "statement": "The Hindi word for 'money' is ____.",
         "answer": "पैसा",
         "options": [
@@ -434,7 +403,6 @@
         "coins": 110
     },
     {
-        "id": 32,
         "statement": "Fill in the blank: I am going to the ____ to work.",
         "answer": "office",
         "options": [
@@ -448,7 +416,6 @@
         "coins": 110
     },
     {
-        "id": 33,
         "statement": "What is the synonym of the Hindi word 'अच्छा' in English?",
         "answer": "good",
         "options": [
@@ -462,7 +429,6 @@
         "coins": 110
     },
     {
-        "id": 34,
         "statement": "Which of the following is a type of sport?",
         "answer": "cricket",
         "options": [
@@ -476,7 +442,6 @@
         "coins": 110
     },
     {
-        "id": 35,
         "statement": "What is the opposite of the word 'big'?",
         "answer": "small",
         "options": [
@@ -490,7 +455,6 @@
         "coins": 110
     },
     {
-        "id": 36,
         "statement": "The Hindi word for 'student' is ____.",
         "answer": "छात्र",
         "options": [
@@ -504,7 +468,6 @@
         "coins": 110
     },
     {
-        "id": 37,
         "statement": "Fill in the blank: I am going to the ____ to learn about science.",
         "answer": "library",
         "options": [
@@ -518,7 +481,6 @@
         "coins": 110
     },
     {
-        "id": 38,
         "statement": "What is the synonym of the Hindi word 'स्वच्छ' in English?",
         "answer": "clean",
         "options": [
@@ -532,7 +494,6 @@
         "coins": 110
     },
     {
-        "id": 39,
         "statement": "Which of the following is a type of vegetable?",
         "answer": "potato",
         "options": [
@@ -546,7 +507,6 @@
         "coins": 110
     },
     {
-        "id": 40,
         "statement": "What is the opposite of the word 'expensive'?",
         "answer": "cheap",
         "options": [
@@ -560,7 +520,6 @@
         "coins": 110
     },
     {
-        "id": 41,
         "statement": "The Hindi word for 'animal' is ____.",
         "answer": "जानवर",
         "options": [
@@ -574,7 +533,6 @@
         "coins": 110
     },
     {
-        "id": 42,
         "statement": "Fill in the blank: I am going to the ____ to buy clothes.",
         "answer": "mall",
         "options": [
@@ -588,7 +546,6 @@
         "coins": 110
     },
     {
-        "id": 43,
         "statement": "What is the synonym of the Hindi word 'सस्ता' in English?",
         "answer": "cheap",
         "options": [
@@ -602,7 +559,6 @@
         "coins": 110
     },
     {
-        "id": 44,
         "statement": "Which of the following is a type of music?",
         "answer": "pop",
         "options": [
@@ -616,7 +572,6 @@
         "coins": 110
     },
     {
-        "id": 45,
         "statement": "What is the opposite of the word 'hot'?",
         "answer": "cold",
         "options": [
@@ -630,7 +585,6 @@
         "coins": 110
     },
     {
-        "id": 46,
         "statement": "The Hindi word for 'doctor' is ____.",
         "answer": "डॉक्टर",
         "options": [
@@ -644,7 +598,6 @@
         "coins": 110
     },
     {
-        "id": 47,
         "statement": "Fill in the blank: I am going to the ____ to see a movie.",
         "answer": "theater",
         "options": [
@@ -658,7 +611,6 @@
         "coins": 110
     },
     {
-        "id": 48,
         "statement": "What is the synonym of the Hindi word 'आसान' in English?",
         "answer": "easy",
         "options": [
@@ -672,7 +624,6 @@
         "coins": 110
     },
     {
-        "id": 49,
         "statement": "Which of the following is a type of flower?",
         "answer": "rose",
         "options": [
@@ -686,7 +637,6 @@
         "coins": 110
     },
     {
-        "id": 50,
         "statement": "What is the opposite of the word 'fast'?",
         "answer": "slow",
         "options": [
@@ -700,8 +650,6 @@
         "coins": 110
     },
     {
-        "id": 101,
-        "question_type": "blank_statement",
         "statement": "Il _____ un étudiant.",
         "answer": "est",
         "options": [
@@ -715,8 +663,6 @@
         "coins": 120
     },
     {
-        "id": 102,
-        "question_type": "blank_statement",
         "statement": "Je _____ à la bibliothèque.",
         "answer": "vais",
         "options": [
@@ -730,8 +676,6 @@
         "coins": 190
     },
     {
-        "id": 103,
-        "question_type": "blank_statement",
         "statement": "Elle aime manger des _____.",
         "answer": "fruits",
         "options": [
@@ -745,8 +689,6 @@
         "coins": 130
     },
     {
-        "id": 104,
-        "question_type": "blank_statement",
         "statement": "Le chien est _____ la table.",
         "answer": "sous",
         "options": [
@@ -760,8 +702,6 @@
         "coins": 140
     },
     {
-        "id": 107,
-        "question_type": "blank_statement",
         "statement": "Nous ______ des amis hier soir.",
         "answer": "avons rencontré",
         "options": [
@@ -775,8 +715,6 @@
         "coins": 170
     },
     {
-        "id": 108,
-        "question_type": "blank_statement",
         "statement": "Il ______ le livre.",
         "answer": "lit",
         "options": [
@@ -790,8 +728,6 @@
         "coins": 180
     },
     {
-        "id": 109,
-        "question_type": "synonym",
         "statement": "Tired",
         "answer": "Fatigué",
         "options": [
@@ -805,8 +741,6 @@
         "coins": 200
     },
     {
-        "id": 110,
-        "question_type": "synonym",
         "statement": "Difficult",
         "answer": "Difficile",
         "options": [
@@ -820,8 +754,6 @@
         "coins": 190
     },
     {
-        "id": 111,
-        "question_type": "blank_statement",
         "statement": "Elle ______ son ami au café.",
         "answer": "retrouve",
         "options": [
@@ -835,8 +767,6 @@
         "coins": 120
     },
     {
-        "id": 112,
-        "question_type": "blank_statement",
         "statement": "Nous _______ à l'école.",
         "answer": "étudions",
         "options": [
@@ -850,8 +780,6 @@
         "coins": 130
     },
     {
-        "id": 113,
-        "question_type": "blank_statement",
         "statement": "Ils achètent ______ voiture.",
         "answer": "une",
         "options": [
@@ -865,8 +793,6 @@
         "coins": 140
     },
     {
-        "id": 114,
-        "question_type": "blank_statement",
         "statement": "Le chat est ______ la chaise.",
         "answer": "sur",
         "options": [
@@ -880,8 +806,6 @@
         "coins": 150
     },
     {
-        "id": 115,
-        "question_type": "synonym",
         "statement": "Smart",
         "answer": "Intelligent",
         "options": [
@@ -895,8 +819,6 @@
         "coins": 160
     },
     {
-        "id": 116,
-        "question_type": "synonym",
         "statement": "Tall",
         "answer": "Grand",
         "options": [
@@ -910,8 +832,6 @@
         "coins": 170
     },
     {
-        "id": 117,
-        "question_type": "blank_statement",
         "statement": "Ils _______ une nouvelle maison.",
         "answer": "construisent",
         "options": [
@@ -925,8 +845,6 @@
         "coins": 180
     },
     {
-        "id": 118,
-        "question_type": "blank_statement",
         "statement": "Elle ______ la musique.",
         "answer": "écoute",
         "options": [
@@ -940,8 +858,6 @@
         "coins": 190
     },
     {
-        "id": 119,
-        "question_type": "synonym",
         "statement": "Brave",
         "answer": "Vaillant",
         "options": [
@@ -955,8 +871,6 @@
         "coins": 200
     },
     {
-        "id": 120,
-        "question_type": "synonym",
         "statement": "Cold",
         "answer": "Froid",
         "options": [
@@ -970,8 +884,6 @@
         "coins": 190
     },
     {
-        "id": 121,
-        "question_type": "blank_statement",
         "statement": "Tu _____ un livre.",
         "answer": "lis",
         "options": [
@@ -985,8 +897,6 @@
         "coins": 120
     },
     {
-        "id": 122,
-        "question_type": "blank_statement",
         "statement": "Ils _______ au cinéma.",
         "answer": "vont",
         "options": [
@@ -1000,8 +910,6 @@
         "coins": 190
     },
     {
-        "id": 123,
-        "question_type": "blank_statement",
         "statement": "Elle aime ______ musique.",
         "answer": "la",
         "options": [
@@ -1015,8 +923,6 @@
         "coins": 130
     },
     {
-        "id": 124,
-        "question_type": "blank_statement",
         "statement": "Le lapin est ______ la boîte.",
         "answer": "dans",
         "options": [
@@ -1030,8 +936,6 @@
         "coins": 140
     },
     {
-        "id": 125,
-        "question_type": "synonym",
         "statement": "Strong",
         "answer": "Fort",
         "options": [
@@ -1045,8 +949,6 @@
         "coins": 150
     },
     {
-        "id": 126,
-        "question_type": "synonym",
         "statement": "Fast",
         "answer": "Rapide",
         "options": [
@@ -1060,8 +962,6 @@
         "coins": 160
     },
     {
-        "id": 127,
-        "question_type": "blank_statement",
         "statement": "Ils ______ la pizza.",
         "answer": "mangent",
         "options": [
@@ -1075,8 +975,6 @@
         "coins": 170
     },
     {
-        "id": 128,
-        "question_type": "blank_statement",
         "statement": "Il ______ un roman.",
         "answer": "écrit",
         "options": [
@@ -1090,8 +988,6 @@
         "coins": 180
     },
     {
-        "id": 129,
-        "question_type": "synonym",
         "statement": "Happy",
         "answer": "Heureux",
         "options": [
@@ -1105,8 +1001,6 @@
         "coins": 190
     },
     {
-        "id": 130,
-        "question_type": "synonym",
         "statement": "Hot",
         "answer": "Chaud",
         "options": [
@@ -1120,8 +1014,6 @@
         "coins": 200
     },
     {
-        "id": 131,
-        "question_type": "blank_statement",
         "statement": "Il ______ de manger.",
         "answer": "arrête",
         "options": [
@@ -1135,8 +1027,6 @@
         "coins": 120
     },
     {
-        "id": 132,
-        "question_type": "blank_statement",
         "statement": "Je _____ le livre.",
         "answer": "lis",
         "options": [
@@ -1150,8 +1040,6 @@
         "coins": 190
     },
     {
-        "id": 133,
-        "question_type": "blank_statement",
         "statement": "Elle porte ______ robe rouge.",
         "answer": "une",
         "options": [
@@ -1165,8 +1053,6 @@
         "coins": 130
     },
     {
-        "id": 134,
-        "question_type": "blank_statement",
         "statement": "La tasse est ______ la table.",
         "answer": "sur",
         "options": [
@@ -1180,8 +1066,6 @@
         "coins": 140
     },
     {
-        "id": 136,
-        "question_type": "synonym",
         "statement": "Angry",
         "answer": "Fâché",
         "options": [
@@ -1195,8 +1079,6 @@
         "coins": 160
     },
     {
-        "id": 137,
-        "question_type": "blank_statement",
         "statement": "Ils ______ à Paris.",
         "answer": "habitent",
         "options": [
@@ -1210,8 +1092,6 @@
         "coins": 170
     },
     {
-        "id": 138,
-        "question_type": "blank_statement",
         "statement": "Elle ______ l'examen.",
         "answer": "réussit",
         "options": [
@@ -1225,8 +1105,6 @@
         "coins": 180
     },
     {
-        "id": 139,
-        "question_type": "synonym",
         "statement": "Tired",
         "answer": "Fatigué",
         "options": [
@@ -1240,8 +1118,6 @@
         "coins": 190
     },
     {
-        "id": 140,
-        "question_type": "synonym",
         "statement": "Easy",
         "answer": "Facile",
         "options": [
@@ -1255,8 +1131,6 @@
         "coins": 200
     },
     {
-        "id": 141,
-        "question_type": "blank_statement",
         "statement": "Elle _____ une chanson.",
         "answer": "chante",
         "options": [
@@ -1270,8 +1144,6 @@
         "coins": 120
     },
     {
-        "id": 142,
-        "question_type": "blank_statement",
         "statement": "Nous _______ au cinéma.",
         "answer": "allons",
         "options": [
@@ -1285,8 +1157,6 @@
         "coins": 190
     },
     {
-        "id": 143,
-        "question_type": "blank_statement",
         "statement": "Il porte ______ chapeau.",
         "answer": "un",
         "options": [
@@ -1300,8 +1170,6 @@
         "coins": 130
     },
     {
-        "id": 144,
-        "question_type": "blank_statement",
         "statement": "La clé est ______ la table.",
         "answer": "sur",
         "options": [
@@ -1315,8 +1183,6 @@
         "coins": 140
     },
     {
-        "id": 145,
-        "question_type": "synonym",
         "statement": "Good",
         "answer": "Bon",
         "options": [
@@ -1330,8 +1196,6 @@
         "coins": 150
     },
     {
-        "id": 146,
-        "question_type": "synonym",
         "statement": "Sad",
         "answer": "Triste",
         "options": [
@@ -1345,8 +1209,6 @@
         "coins": 160
     },
     {
-        "id": 147,
-        "question_type": "blank_statement",
         "statement": "Ils ______ en vacances.",
         "answer": "partent",
         "options": [
@@ -1360,8 +1222,6 @@
         "coins": 170
     },
     {
-        "id": 148,
-        "question_type": "blank_statement",
         "statement": "Elle ______ un gâteau.",
         "answer": "cuit",
         "options": [
@@ -1375,8 +1235,6 @@
         "coins": 180
     },
     {
-        "id": 149,
-        "question_type": "synonym",
         "statement": "Scared",
         "answer": "Effrayé",
         "options": [
@@ -1390,8 +1248,6 @@
         "coins": 190
     },
     {
-        "id": 150,
-        "question_type": "synonym",
         "statement": "Interesting",
         "answer": "Intéressant",
         "options": [
@@ -1405,8 +1261,6 @@
         "coins": 200
     },
     {
-        "id": 201,
-        "question_type": "blank_statement",
         "statement": "Él ________ su casa.",
         "answer": "limpia",
         "options": [
@@ -1420,8 +1274,6 @@
         "coins": 140
     },
     {
-        "id": 202,
-        "question_type": "blank_statement",
         "statement": "Yo ________ al cine.",
         "answer": "voy",
         "options": [
@@ -1435,8 +1287,6 @@
         "coins": 120
     },
     {
-        "id": 203,
-        "question_type": "blank_statement",
         "statement": "Ella tiene ________ hermano.",
         "answer": "un",
         "options": [
@@ -1450,8 +1300,6 @@
         "coins": 170
     },
     {
-        "id": 204,
-        "question_type": "blank_statement",
         "statement": "El perro está ________ la mesa.",
         "answer": "debajo de",
         "options": [
@@ -1465,8 +1313,6 @@
         "coins": 160
     },
     {
-        "id": 205,
-        "question_type": "synonym",
         "statement": "Happy",
         "answer": "Feliz",
         "options": [
@@ -1480,8 +1326,6 @@
         "coins": 200
     },
     {
-        "id": 206,
-        "question_type": "synonym",
         "statement": "Beautiful",
         "answer": "Hermoso",
         "options": [
@@ -1495,8 +1339,6 @@
         "coins": 190
     },
     {
-        "id": 207,
-        "question_type": "blank_statement",
         "statement": "Nosotros ________ en el parque.",
         "answer": "jugamos",
         "options": [
@@ -1510,8 +1352,6 @@
         "coins": 180
     },
     {
-        "id": 208,
-        "question_type": "blank_statement",
         "statement": "Él ________ un libro.",
         "answer": "lee",
         "options": [
@@ -1525,8 +1365,6 @@
         "coins": 150
     },
     {
-        "id": 210,
-        "question_type": "synonym",
         "statement": "Fast",
         "answer": "Rápido",
         "options": [
@@ -1540,8 +1378,6 @@
         "coins": 120
     },
     {
-        "id": 211,
-        "question_type": "blank_statement",
         "statement": "Ella ________ a la tienda.",
         "answer": "va",
         "options": [
@@ -1555,8 +1391,6 @@
         "coins": 140
     },
     {
-        "id": 212,
-        "question_type": "blank_statement",
         "statement": "Nosotros ________ la cena.",
         "answer": "comemos",
         "options": [
@@ -1570,8 +1404,6 @@
         "coins": 160
     },
     {
-        "id": 213,
-        "question_type": "blank_statement",
         "statement": "Tú tienes ________ lápiz.",
         "answer": "un",
         "options": [
@@ -1585,8 +1417,6 @@
         "coins": 180
     },
     {
-        "id": 214,
-        "question_type": "blank_statement",
         "statement": "El libro está ________ la mesa.",
         "answer": "encima de",
         "options": [
@@ -1600,8 +1430,6 @@
         "coins": 190
     },
     {
-        "id": 217,
-        "question_type": "blank_statement",
         "statement": "Ellos ________ al parque.",
         "answer": "van",
         "options": [
@@ -1615,8 +1443,6 @@
         "coins": 170
     },
     {
-        "id": 218,
-        "question_type": "blank_statement",
         "statement": "Él ________ una carta.",
         "answer": "escribe",
         "options": [
@@ -1630,8 +1456,6 @@
         "coins": 110
     },
     {
-        "id": 219,
-        "question_type": "synonym",
         "statement": "Tired",
         "answer": "Fatigado",
         "options": [
@@ -1645,8 +1469,6 @@
         "coins": 120
     },
     {
-        "id": 221,
-        "question_type": "blank_statement",
         "statement": "Ellos ________ en la playa.",
         "answer": "juegan",
         "options": [
@@ -1660,8 +1482,6 @@
         "coins": 140
     },
     {
-        "id": 222,
-        "question_type": "blank_statement",
         "statement": "Ella ________ al colegio.",
         "answer": "va",
         "options": [
@@ -1675,8 +1495,6 @@
         "coins": 160
     },
     {
-        "id": 223,
-        "question_type": "blank_statement",
         "statement": "Él tiene ________ bicicleta.",
         "answer": "una",
         "options": [
@@ -1690,8 +1508,6 @@
         "coins": 180
     },
     {
-        "id": 224,
-        "question_type": "blank_statement",
         "statement": "La silla está ________ la mesa.",
         "answer": "al lado de",
         "options": [
@@ -1705,8 +1521,6 @@
         "coins": 190
     },
     {
-        "id": 227,
-        "question_type": "blank_statement",
         "statement": "Ellos ________ en el cine.",
         "answer": "van",
         "options": [
@@ -1720,8 +1534,6 @@
         "coins": 170
     },
     {
-        "id": 228,
-        "question_type": "blank_statement",
         "statement": "Él ________ una carta.",
         "answer": "escribe",
         "options": [
@@ -1735,8 +1547,6 @@
         "coins": 110
     },
     {
-        "id": 231,
-        "question_type": "blank_statement",
         "statement": "Nosotros ________ al cine.",
         "answer": "vamos",
         "options": [
@@ -1750,8 +1560,6 @@
         "coins": 140
     },
     {
-        "id": 232,
-        "question_type": "blank_statement",
         "statement": "Ella ________ en la biblioteca.",
         "answer": "estudia",
         "options": [
@@ -1765,8 +1573,6 @@
         "coins": 160
     },
     {
-        "id": 233,
-        "question_type": "blank_statement",
         "statement": "Tú tienes ________ hermano.",
         "answer": "un",
         "options": [
@@ -1780,8 +1586,6 @@
         "coins": 180
     },
     {
-        "id": 234,
-        "question_type": "blank_statement",
         "statement": "La pluma está ________ la mesa.",
         "answer": "sobre",
         "options": [
@@ -1795,8 +1599,6 @@
         "coins": 190
     },
     {
-        "id": 237,
-        "question_type": "blank_statement",
         "statement": "Ellos ________ en la montaña.",
         "answer": "escalaban",
         "options": [
@@ -1810,8 +1612,6 @@
         "coins": 170
     },
     {
-        "id": 238,
-        "question_type": "blank_statement",
         "statement": "Ella ________ una carta.",
         "answer": "escribe",
         "options": [
@@ -1825,8 +1625,6 @@
         "coins": 110
     },
     {
-        "id": 241,
-        "question_type": "blank_statement",
         "statement": "Nosotros ________ fútbol en el parque.",
         "answer": "jugamos",
         "options": [
@@ -1840,8 +1638,6 @@
         "coins": 140
     },
     {
-        "id": 242,
-        "question_type": "blank_statement",
         "statement": "Ella ________ a la tienda.",
         "answer": "va",
         "options": [
@@ -1855,8 +1651,6 @@
         "coins": 160
     },
     {
-        "id": 243,
-        "question_type": "blank_statement",
         "statement": "Él tiene ________ perro.",
         "answer": "un",
         "options": [
@@ -1870,8 +1664,6 @@
         "coins": 180
     },
     {
-        "id": 244,
-        "question_type": "blank_statement",
         "statement": "La computadora está ________ la mesa.",
         "answer": "encima de",
         "options": [
@@ -1885,8 +1677,6 @@
         "coins": 190
     },
     {
-        "id": 247,
-        "question_type": "blank_statement",
         "statement": "Ellos ________ al cine.",
         "answer": "van",
         "options": [
@@ -1900,8 +1690,6 @@
         "coins": 170
     },
     {
-        "id": 248,
-        "question_type": "blank_statement",
         "statement": "Él ________ una carta.",
         "answer": "escribe",
         "options": [
@@ -1915,8 +1703,6 @@
         "coins": 110
     },
     {
-        "id": 249,
-        "question_type": "synonym",
         "statement": "Tired",
         "answer": "Cansado",
         "options": [

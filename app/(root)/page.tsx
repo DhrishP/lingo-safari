@@ -1,10 +1,10 @@
+import { UserButton } from "@clerk/nextjs";
+import Image from "next/image";
 
-import Header from "@/components/Header/Header";
 export default function Home() {
   return (
     <>
       <div className="header">
-        <Header />
       </div>
       <div className="relative flex justify-center"></div>
       <div className="flex flex-col items-center gap-7">

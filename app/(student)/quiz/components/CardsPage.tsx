@@ -8,17 +8,17 @@ export default function CardsPage() {
         <div className=' w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12'>
           <img className=' w-full h-48 shadow-md rounded-2xl border-slate-100 border' src='/ukFlag.png' />
           <h1 className=' font-semibold text-xl text-center'>English</h1>
-          <button className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</button>
+          <a href='/quiz/en' className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</a>
         </div>
         <div className=' w-full  flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12'>
         <img className=' w-full h-48 shadow-md rounded-2xl border-slate-100 border' src='/esFlag.png' />
           <h1 className=' font-semibold text-xl text-center'>Spanish</h1>
-          <button className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</button>
+          <a href='/quiz/es' className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</a>
         </div>
         <div className=' w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12'>
         <img className=' w-full h-48 shadow-md rounded-2xl border-slate-100 border' src='/frFlag.png' />
           <h1 className=' font-semibold py-4 text-xl text-center'>English</h1>
-          <button className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</button>
+          <a href='/quiz/fr' className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</a>
         </div>
       </div>
       <div className="gradient1"></div>

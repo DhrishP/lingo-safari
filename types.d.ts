@@ -6,5 +6,4 @@ type QuestionProps = {
   difficulty: string;
   coins: number;
   language: string;
-  StatsId: string?;
 };

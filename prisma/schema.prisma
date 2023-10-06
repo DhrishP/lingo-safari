@@ -9,7 +9,7 @@ datasource db {
 
 model Student {
   id                 String      @id @default(uuid())
-  userId             String
+  userId             String      @unique
   username           String
   coins              Int         @default(0)
   attemptedQuestions Questions[] @relation("attemptedQuestions")
@@ -19,7 +19,7 @@ model Student {
 
 model Teacher {
   id               String      @id @default(uuid())
-  userId           String
+  userId           String      @unique
   username         String
   createdQuestions Questions[] @relation("teacherQuestions")
   createdCourses   Courses[]   @relation("teacherCourses")
@@ -27,13 +27,15 @@ model Teacher {
 }
 
 model Courses {
-  id          String   @id @default(uuid())
+  id          String    @id @default(uuid())
   imageUrl    String
+  name        String
   price       Int
   description String
-  TeacherId   String
-  creator     Teacher  @relation("teacherCourses", fields: [TeacherId], references: [id])
-  createdAt   DateTime @default(now())
+  TeacherId   String    @unique
+  creator     Teacher   @relation("teacherCourses", fields: [TeacherId], references: [id])
+  createdAt   DateTime  @default(now())
+  Purchase    Purchase?
 }
 
 model Questions {
@@ -50,9 +52,25 @@ model Questions {
   correctQuestionsId  String?
   attemptStudents     Student? @relation("attemptedQuestions", fields: [attemptedQuestionId], references: [id])
   correctStudents     Student? @relation("correctQuestions", fields: [correctQuestionsId], references: [id])
-  TeacherId           String?
+  TeacherId           String?  @unique
   author              Teacher? @relation("teacherQuestions", fields: [TeacherId], references: [id])
   // statsId    String?
   // Quiz       Quiz?    @relation(fields: [quizId], references: [id])
   // quizId     String?
+}
+
+model Purchase {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  courseId  String   @unique
+  course    Courses  @relation(fields: [courseId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model StripeCustomer {
+  id               String   @id @default(uuid())
+  userId           String   @unique
+  stripeCustomerId String   @unique
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
 }

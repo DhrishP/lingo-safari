@@ -42,24 +42,23 @@ export async function POST(
         req: Request
     ) {
         try {
-            const { userId } = await auth()
-            const { searchParams} = new URL(req.url)
-            const language = searchParams.get("language")
-            console.log(language)
-            console.log(userId)
-            if(!language)return NextResponse.json("selct a language")
-            if (!userId) return NextResponse.json("Unauthorized")
+            const { searchParams } = new URL(req.url);
+            const language = searchParams.get("language");
+            console.log(language);
+            if (!language) return NextResponse.json("select a language");
             const questions = await prisma.questions.findMany({
-                where: {
-                    language: language
-                }
-            })
-            const random = Array.from({ length: 20 }, () => Math.floor(Math.random() * questions.length));
+                where: {            
+                    language: language,
+                },
+            });
+            const random = Array.from({ length: 20 }, () =>
+                Math.floor(Math.random() * questions.length)
+            );
             const filteredQuestions = questions.filter((val, ind) => {
                 if (random.includes(ind)) {
-                    return val
+                    return val;
                 }
-            })
+            });
             if (filteredQuestions) {
                 return NextResponse.json(filteredQuestions);
             } else {

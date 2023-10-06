@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img src="/Saly-10.png" />
+        <Image width={500} height={500} alt="Landing-image" src="/Saly-10.png" />
         <div className="gradient1"></div>
       </div>
     </>

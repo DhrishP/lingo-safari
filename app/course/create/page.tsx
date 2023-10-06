@@ -47,7 +47,7 @@ const CourseFormPage = () => {
   });
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-        console.log("hi")
+      console.log("hi");
       console.log(values);
       setloading(true);
       //   const res = await axios.post(`/api/${params.StoreId}/courses`, values);
@@ -75,99 +75,88 @@ const CourseFormPage = () => {
             onSubmit={form.handleSubmit(onSubmit)}
             className="space-y-5 grid grid-cols-2 gap-x-2"
           >
-         
-              <FormField 
-                control={form.control}
-                name="Image"
-                render={({ field }) => (
-                  <FormItem className="col-span-2">
-                    <FormLabel>Images</FormLabel>
-                    <FormControl>
-                      <ImageUpload
-                        values={field.value.map((image) => image.url)}
-                        disabled={loading}
-                        onChange={(url) =>
-                          field.onChange([...field.value, { url }])
-                        }
-                        onRemove={(url) =>
-                          field.onChange([
-                            ...field.value.filter(
-                              (current) => current.url !== url
-                            ),
-                          ])
-                        }
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-           
-           
-              {" "}
-              <FormField
-                control={form.control}
-                name="Title"
-                render={({ field }) => (
-                  <FormItem className="w-1/2">
-                    <FormLabel className="font-bold text-primary ">
-                      Title
-                    </FormLabel>
-                    <FormControl>
-                      <Input
-                        disabled={loading}
-                        placeholder="course text.."
-                        {...field}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-    
-
-  
-              <FormField
-                control={form.control}
-                name="price"
-                render={({ field }) => (
-                  <FormItem className="w-1/2">
-                    <FormLabel>Price</FormLabel>
-                    <FormControl>
-                      <Input
-                        type="number"
-                        disabled={loading}
-                        placeholder="9.99"
-                        {...field}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-       
-       
-              <FormField
-                control={form.control}
-                name="descriptionn"
-                render={({ field }) => (
-                  <FormItem className="flex items-start  justify-start flex-col">
-                    <FormLabel>Description</FormLabel>
-                    <FormControl>
-                      <TextareaAutosize
-                        className="bg-black text-white rounded-lg"
-                        cols={30}
-                        placeholder="tell  us something about the features of your course.."
-                        minRows={10}
-                        {...field}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-        
-
+            <FormField
+              control={form.control}
+              name="Image"
+              render={({ field }) => (
+                <FormItem className="col-span-2">
+                  <FormLabel>Images</FormLabel>
+                  <FormControl>
+                    <ImageUpload
+                      values={field.value.map((image) => image.url)}
+                      disabled={loading}
+                      onChange={(url) =>
+                        field.onChange([...field.value, { url }])
+                      }
+                      onRemove={(url) =>
+                        field.onChange([
+                          ...field.value.filter(
+                            (current) => current.url !== url
+                          ),
+                        ])
+                      }
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />{" "}
+            <FormField
+              control={form.control}
+              name="Title"
+              render={({ field }) => (
+                <FormItem className="w-1/2">
+                  <FormLabel className="font-bold text-primary ">
+                    Title
+                  </FormLabel>
+                  <FormControl>
+                    <Input
+                      disabled={loading}
+                      placeholder="course text.."
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="price"
+              render={({ field }) => (
+                <FormItem className="w-1/2">
+                  <FormLabel>Price</FormLabel>
+                  <FormControl>
+                    <Input
+                      type="number"
+                      disabled={loading}
+                      placeholder="9.99"
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="descriptionn"
+              render={({ field }) => (
+                <FormItem className="flex items-start  justify-start flex-col">
+                  <FormLabel>Description</FormLabel>
+                  <FormControl>
+                    <TextareaAutosize
+                      className="bg-black text-white rounded-lg"
+                      cols={30}
+                      placeholder="tell  us something about the features of your course.."
+                      minRows={10}
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
             <Button
               variant={"ghost"}
               className="border border-purple-300 inline-block w-1/5  col-span-2 mt-2 rounded-[6px]"
@@ -179,8 +168,7 @@ const CourseFormPage = () => {
           </form>
         </Form>
       </div>
-        <div className="gradient1"></div>
-   
+      <div className="gradient1"></div>
     </>
   );
 };

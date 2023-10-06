@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 import React from "react";
 import TextareaAutosize from "react-textarea-autosize";
@@ -24,7 +23,6 @@ const ChatInput = ({ className }: ChatInputProps) => {
           `border-t border-primary-content space-y-2 flex items-center flex-col `,
           className
         )}
-      
       >
         <TextareaAutosize
           rows={2}
@@ -33,9 +31,13 @@ const ChatInput = ({ className }: ChatInputProps) => {
           autoFocus
           onChange={handleInputChange}
           placeholder="Type a message..."
-          onKeyDown={(e)=>{if (e.key === 'Enter') {handleSubmit} {
-            
-          }}}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleSubmit;
+            }
+            {
+            }
+          }}
           className="peer disabled:opacity-50  resize-none block pr-14 px-2 w-full border-0 bg-zinc-100  py-1.5 text-primary  text-sm sm:leading-6"
         />
         <button
@@ -52,9 +54,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
               {message.role === "assistant" ? (
                 <h3 className="text-sm font-semibold mt-2">AI Assistant</h3>
               ) : (
-                <h3 className="text-sm font-semibold mt-2  mr-1">
-                  You
-                </h3>
+                <h3 className="text-sm font-semibold mt-2  mr-1">You</h3>
               )}
               {message.content.split("\n").map((item: string) => {
                 if (item === "") {
@@ -63,7 +63,10 @@ const ChatInput = ({ className }: ChatInputProps) => {
                   if (message.role === "assistant") {
                     return (
                       <>
-                        <div key={item} className="bg-blue-600 inline-block  text-white dark:bg-blue-400 p-2 rounded-lg text-left">
+                        <div
+                          key={item}
+                          className="bg-blue-600 inline-block  text-white dark:bg-blue-400 p-2 rounded-lg text-left"
+                        >
                           <p className="text-sm ">{item}</p>
                         </div>
                       </>
@@ -71,7 +74,10 @@ const ChatInput = ({ className }: ChatInputProps) => {
                   } else {
                     return (
                       <>
-                        <div key={item} className="bg-white inline-block text-end p-2 rounded-lg ">
+                        <div
+                          key={item}
+                          className="bg-white inline-block text-end p-2 rounded-lg "
+                        >
                           <p className="text-sm  ">{item}</p>
                         </div>
                       </>

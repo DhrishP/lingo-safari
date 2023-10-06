@@ -23,7 +23,7 @@ export default function Home() {
         <div className="z-10 flex h-11 justify-between rounded-2xl bg-black border-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
           <div className="relative w-[132px] h-[43px] bg-white rounded-[7px] overflow-hidden border border-solid border-transparent [background:linear-gradient(180deg,rgb(113,101,255)_0%,rgb(85.51,71.19,255)_100%)]">
             <div className="absolute top-[11px] left-[22px] [font-family:'Inter-Medium',Helvetica] font-medium text-white text-[16px] text-center tracking-[0] leading-[normal] whitespace-nowrap cursor-pointer">
-              <a href="#">Get Started</a>
+              <a href="/roleform">Get Started</a>
             </div>
             
           </div>

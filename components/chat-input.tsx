@@ -36,7 +36,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
           onKeyDown={(e)=>{if (e.key === 'Enter') {handleSubmit} {
             
           }}}
-          className="peer disabled:opacity-50  resize-none block pr-14 px-2 w-full border-0 bg-zinc-100  py-1.5 text-primary  text-sm sm:leading-6"
+          className="peer disabled:opacity-50  resize-none block pr-14 px-2 w-full border-0 bg-black  py-1.5 text-primary  text-sm sm:leading-6"
         />
         <button
           type="submit"

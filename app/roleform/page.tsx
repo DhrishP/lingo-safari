@@ -40,7 +40,6 @@ export default function RolePage(){
     }
   return (
     <div>
-      <Header />
       <div className="mt-7 flex flex-col items-center gap-7">
       <div className='gradient1'></div>
     <Card className="w-[350px]">

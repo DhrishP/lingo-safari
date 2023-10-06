@@ -14,14 +14,8 @@
     "@hookform/resolvers": "^3.3.1",
     "@prisma/client": "^5.4.1",
     "@radix-ui/react-accordion": "^1.1.2",
-<<<<<<< HEAD
-    "@radix-ui/react-dialog": "^1.0.5",
-    "@radix-ui/react-label": "^2.0.2",
-    "@radix-ui/react-separator": "^1.0.3",
-=======
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-select": "^2.0.0",
->>>>>>> bb30949921597e34b77d423c5dccbeecfc510e7d
     "@radix-ui/react-slot": "^1.0.2",
     "ai": "^2.2.14",
     "axios": "^1.5.1",
@@ -40,6 +34,7 @@
     "react-hot-toast": "^2.4.1",
     "react-textarea-autosize": "^8.5.3",
     "stripe": "^13.9.0",
+    "swiper": "^10.3.1",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"

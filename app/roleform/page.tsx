@@ -23,8 +23,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-
-const RolePage = () => {
+export default function RolePage(){
     const usernameRef = useRef<HTMLInputElement>(null)
     const [Teacher,SetTeacher] = React.useState(false)
     const Handlesubmit =async () => {
@@ -43,6 +42,7 @@ const RolePage = () => {
     <div>
       <Header />
       <div className="mt-7 flex flex-col items-center gap-7">
+      <div className='gradient1'></div>
     <Card className="w-[350px]">
       <CardHeader>
         <CardTitle>Tell us about yourself</CardTitle>

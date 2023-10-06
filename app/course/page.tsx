@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 function CoursePage({ title, description }: any) {
   return (

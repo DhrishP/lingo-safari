@@ -24,7 +24,6 @@
   },
   "devDependencies": {
     "@next/env": "^13.5.4",
-    "@supabase/supabase-js": "^2.38.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

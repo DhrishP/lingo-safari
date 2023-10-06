@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "database": "tsx scripts/database.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.25.2",
@@ -22,14 +23,17 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@next/env": "^13.5.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "axios": "^1.5.1",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
     "postcss": "^8",
     "tailwindcss": "^3",
+    "tsx": "^3.13.0",
     "typescript": "^5"
   }
 }

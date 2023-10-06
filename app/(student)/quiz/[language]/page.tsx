@@ -1,7 +1,6 @@
 import axios from "axios";
 import React from "react";
 import QuizCard from "./(components)/QuizCard";
-import qs from "query-string";
 
 export default async function QuizPage({
   params,

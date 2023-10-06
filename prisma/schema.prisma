@@ -12,8 +12,7 @@ model Student {
   userId             String      @unique
   username           String
   coins              Int         @default(0)
-  attemptedQuestions Questions[] @relation("attemptedQuestions")
-  correctQuestions   Questions[] @relation("correctQuestions")
+  questions         attemptedQuestion[]
   createdAt          DateTime    @default(now())
 }
 
@@ -48,15 +47,22 @@ model Questions {
   coins               Int?
   language            String
   difficulty          String?
-  attemptedQuestionId String?
-  correctQuestionsId  String?
-  attemptStudents     Student? @relation("attemptedQuestions", fields: [attemptedQuestionId], references: [id])
-  correctStudents     Student? @relation("correctQuestions", fields: [correctQuestionsId], references: [id])
+  attemptedStudents   attemptedQuestion[]
   TeacherId           String?  @unique
   author              Teacher? @relation("teacherQuestions", fields: [TeacherId], references: [id])
   // statsId    String?
   // Quiz       Quiz?    @relation(fields: [quizId], references: [id])
   // quizId     String?
+}
+
+model attemptedQuestion {
+  question       Questions     @relation(fields: [questionId], references: [id])
+  questionId     String // relation scalar field (used in the `@relation` attribute above)
+  student   Student @relation(fields: [studentId], references: [id])
+  studentId String // relation scalar field (used in the `@relation` attribute above)
+  assignedAt DateTime @default(now())
+  correct    Boolean @default(false)
+  @@id([questionId, studentId])
 }
 
 model Purchase {

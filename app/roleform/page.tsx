@@ -66,15 +66,15 @@ export default function RolePage() {
                   <Input ref={usernameRef} id="name" placeholder="Username" />
                 </div>
                 <div className="flex flex-col space-y-2.5">
-                  <Label htmlFor="framework">Choose your Profession: </Label>
+                  <Label htmlFor="typeofgame">Choose your Profession: </Label>
                   <Select>
-                    <SelectTrigger id="framework">
+                    <SelectTrigger id="typeofgame">
                       <SelectValue placeholder="Select" />
                     </SelectTrigger>
                     <SelectContent position="popper">
                       <SelectItem value="none"> </SelectItem>
-                      <SelectItem value="student">Student </SelectItem>
-                      <SelectItem value="teacher">Teacher</SelectItem>
+                      <SelectItem value="student">MCQ </SelectItem>
+                      <SelectItem value="teacher">Open-ended</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

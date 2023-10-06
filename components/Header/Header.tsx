@@ -3,7 +3,7 @@ import { UserButton } from "@clerk/nextjs";
 import React from "react";
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { Album } from "lucide-react";
+import { Settings, Users } from "lucide-react";
 import Link from "next/link";
 const Header = () => {
   const menu = "/public/menu.svg";
@@ -24,19 +24,25 @@ const Header = () => {
         </div>
       </div>
       <div className="pr-5 hidden lg:flex gap-5 items-center">
-        <div className="flex items-center space-x-3">
-        <Link href={'/courses'} className="flex cursor-pointer p-2 rounded-xl items-center bg-purple-600 ">
-            <Album className="w-5 h-4" />
-            <p>Courses</p>
-          </Link >
+        <div className="flex items-center space-x-5">
+          <Link
+            href={"/courses"}
+            className="flex cursor-pointer space-x-1 p-2 rounded-xl items-center bg-purple-600 hover:bg-purple-700 transition-all"
+          >
+            <Users className="w-5 h-5" />
+            <p>Leaderboard</p>
+          </Link>
           <UserButton afterSignOutUrl="/" />
+          <div className="cursor-pointer">
+          <Settings className="w-5 h-5 "/>
+        </div>
         </div>
       </div>
       <div className="lg:hidden z-40 m-4" onClick={handleClick}>
         <div>
-        
           <UserButton afterSignOutUrl="/" />
         </div>
+      
       </div>
     </div>
   );

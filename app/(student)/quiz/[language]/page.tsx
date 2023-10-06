@@ -1,4 +1,4 @@
-"use client"
+
 import axios from "axios";
 import React from "react";
 import QuizCard from "./(components)/QuizCard";
@@ -38,17 +38,21 @@ export default async function QuizPage({
       studentId: findStudentID.id,
     },
   });
-  const attemptedQuestionIds = findFinishedQues.map((attemptedQuestion) => attemptedQuestion.questionId);
-  const NotAttemptedArr = data.filter((question) => !attemptedQuestionIds.includes(question.id));
-  
+  const attemptedQuestionIds = findFinishedQues.map(
+    (attemptedQuestion) => attemptedQuestion.questionId
+  );
+  const NotAttemptedArr = data.filter(
+    (question) => !attemptedQuestionIds.includes(question.id)
+  );
 
   return (
-    <div className=" flex justify-center items-center ">
-      <QuizCard  QuizArray={NotAttemptedArr} Preference={findStudentID.PrefTime} />
+    <div className="h-screen flex justify-center items-center ">
+      <QuizCard
+        QuizArray={NotAttemptedArr}
+        StudentId={findStudentID.id}
+        Preference={findStudentID.PrefTime}
+      />
       <div className="gradient1"></div>
     </div>
   );
-
-
-
 }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && prisma generate",
     "start": "next start",
     "lint": "next lint",
     "database": "tsx scripts/database.ts"
@@ -24,6 +24,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-textarea-autosize": "^8.5.3",
+    "stripe": "^13.9.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7"
   },

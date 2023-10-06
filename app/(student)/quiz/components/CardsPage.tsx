@@ -17,7 +17,7 @@ export default function CardsPage() {
         </div>
         <div className=' w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12'>
         <img className=' w-full h-48 shadow-md rounded-2xl border-slate-100 border' src='/frFlag.png' />
-          <h1 className=' font-semibold py-4 text-xl text-center'>English</h1>
+          <h1 className=' font-semibold py-4 text-xl text-center'>French</h1>
           <a href='/quiz/fr' className=' rounded-xl bg-slate-400 bg-opacity-40 my-2 border-slate-300 px-4 py-1 text-md font-normal hover:bg-opacity-60 transition-all'>Start</a>
         </div>
       </div>

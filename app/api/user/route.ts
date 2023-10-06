@@ -53,3 +53,28 @@ export async function GET(
         return NextResponse.error()
     }
 }
+
+export async function PATCH(
+    req: Request
+) {
+    try {
+        const { userId } = auth();
+        const { preference } = await req.json()
+        if (!userId) return NextResponse.json("Unauthorized")
+        const student = await isStudent(userId)
+        if (student) {
+            const updatedUser = await prisma.student.update({
+                where: {
+                    id: userId
+                },
+                data: {
+                    PrefTime: preference
+                }
+            })
+            return NextResponse.json(updatedUser)
+        }
+    } catch (err) {
+        console.log(err);
+        return NextResponse.error()
+    }
+}

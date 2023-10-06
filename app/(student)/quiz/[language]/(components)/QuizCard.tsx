@@ -8,9 +8,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { saveRecord } from "@/lib/AnswerChecker";
 import prisma from "@/prisma/client";
+import { redirect } from "next/navigation";
 import React from "react";
 import toast from "react-hot-toast";
+import { Volume2 } from "lucide-react";
 
 export default function QuizCard({
   QuizArray,
@@ -30,38 +33,43 @@ export default function QuizCard({
   }
   const [correct, setCorrect] = React.useState<string[]>([]);
   const HandleOption = async (option: string) => {
+    const addAttemptedQuestion = await saveRecord(randomQuiz[currentQuestion].id, randomQuiz[currentQuestion].answer,option, randomQuiz[currentQuestion].type)
+    console.log(addAttemptedQuestion);
     if (option === randomQuiz[currentQuestion].answer) {
       setCorrect([...correct, option]);
-      const addAttemptedQuestion = await prisma.attemptedQuestion.create({
-        data: {
-          questionId: randomQuiz[currentQuestion].id,
-          studentId: StudentId,
-          correct: true,
-        },
-      });
       toast.success("Correct Answer");
       setCurrentQuestion(currentQuestion + 1);
     } else {
-      const addAttemptedQuestion = await prisma.attemptedQuestion.create({
-        data: {
-          questionId: randomQuiz[currentQuestion].id,
-          studentId: StudentId,
-          correct: false,
-        },
-      });
       toast.error("Wrong Answer");
       setCurrentQuestion(currentQuestion + 1);
-      if (currentQuestion === Preference - 1) {
-        alert("You have completed the quiz");
+      if (currentQuestion === QuizArray.length - 1) {
+        redirect("/quiz")
+        // alert("You have completed the quiz");
       }
     }
   };
+  const textToAudio=()=>{
+    const text = randomQuiz[currentQuestion].statement.replaceAll(/_/g, "")+" "+randomQuiz[currentQuestion].options.join(", ");
+    let msg = text;
+    
+    let speech = new SpeechSynthesisUtterance();
+    speech.lang = "en-US";
+    
+    speech.text = msg;
+    speech.volume = 1;
+    speech.rate = 1;
+    speech.pitch = 1;
+    
+    window.speechSynthesis.speak(speech);
+    speechSynthesis.cancel();
+}
+
   return (
     <>
       <div className="space-y-40">
         <Card className="w-[75vw] p-8 bg-slate-200 text-black">
           <CardContent className="space-y-3  ">
-            <CardTitle className="font-bold">Your Question</CardTitle>
+            <CardTitle className="font-bold flex flex-row gap-2">Your Question<span onClick={()=>{textToAudio()}}><Volume2/></span></CardTitle>
             <CardDescription className="capitalize ">
               {randomQuiz[currentQuestion].difficulty} Question
             </CardDescription>
@@ -119,3 +127,6 @@ export default function QuizCard({
     </>
   );
 }
+
+    
+  

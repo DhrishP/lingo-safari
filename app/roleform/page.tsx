@@ -40,20 +40,20 @@ export default function RolePage(){
     }
   return (
     <div>
-      <Header />
-      <div className="mt-7 flex flex-col items-center gap-7">
+   
+      <div className="mt-32 flex flex-col items-center gap-7">
       <div className='gradient1'></div>
-    <Card className="w-[350px]">
+    <Card className="w-[350px] bg-opacity-50 bg-pruple-300">
       <CardHeader>
         <CardTitle>Tell us about yourself</CardTitle>
         <CardDescription></CardDescription>
       </CardHeader>
-      <CardContent>
+      <CardContent className=''>
         <form>
           <div className="grid w-full items-center gap-4">
             <div className="flex flex-col space-y-2.5">
               <Label htmlFor="name">Give Yourself a Nickname</Label>
-              <Input id="name" placeholder="Username" />
+              <Input className='bg-purple-500 text-white' id="name" placeholder="Username" />
             </div>
             <div className="flex flex-col space-y-2.5">
               <Label htmlFor="framework">Choose your Profession: </Label>
@@ -74,7 +74,7 @@ export default function RolePage(){
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline">Back</Button>
-        <Button>Next</Button>
+        <Button className=' bg-purple-300 text-black'>Next</Button>
       </CardFooter>
     </Card>
     </div>

@@ -1,19 +1,38 @@
-import React from 'react'
+"use client";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import React from "react";
 
-export default function QuizCard({props}:{props : {statement: string, answer: string, options: string[], difficulty: string, language: string, coins: number}}) {
-    
+export default function QuizCard({
+  QuizArray,
+  Preference,
+}: {
+  QuizArray: QuestionProps[];
+  Preference: number;
+}) {
+  const [currentQuestion, setCurrentQuestion] = React.useState(0);
+  let random = Math.floor(Math.random() * QuizArray.length);
+  let randomQuiz = [];
+  const dummyvar = 5;
+  for (let i = 0; i < QuizArray.length; i++) {
+    randomQuiz.push(QuizArray[random]);
+  }
+  const [correct, setCorrect] = React.useState([]);
+
   return (
-    <div className=' flex flex-col justify-center items-center gap-8 p-8 rounded-2xl bg-zinc-900 bg-opacity-40'>
-            <h2 className=' text-lg font-semibold py-4 text-center'>{props.statement}</h2>
-        {props.options.map((option, index) => {
-            return (
-              <div key={index} className=' flex w-full flex-col justify-center items-center py-2 px-4 rounded-lg bg-slate-500 bg-opacity-40'>
-          
-          <h1 className=' text-md font-normal '>{`${index+1}. ${option} `}</h1>
-          </div>
-            )
-          }
-        )}
-    </div>
-  )
+    <Card className="w-[75vw] p-10">
+      <CardContent className="space-y-3  ">
+        <CardTitle>Your Question</CardTitle>
+        <CardDescription>
+          {randomQuiz[currentQuestion].difficulty} Question
+        </CardDescription>
+        <div className="mt-22"> {randomQuiz[currentQuestion].statement}</div>
+      </CardContent>
+    </Card>
+  );
 }

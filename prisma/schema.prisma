@@ -8,12 +8,13 @@ datasource db {
 }
 
 model Student {
-  id                 String      @id @default(uuid())
-  userId             String      @unique
-  username           String
-  coins              Int         @default(0)
-  questions         attemptedQuestion[]
-  createdAt          DateTime    @default(now())
+  id        String              @id @default(uuid())
+  userId    String              @unique
+  username  String
+  coins     Int                 @default(0)
+  PrefTime  Int                 @default(5)
+  questions attemptedQuestion[]
+  createdAt DateTime            @default(now())
 }
 
 model Teacher {
@@ -38,39 +39,40 @@ model Courses {
 }
 
 model Questions {
-  id                  String   @id @default(uuid())
-  statement           String
-  answer              String
-  type                String
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-  options             String[] @default([])
-  coins               Int?
-  language            String
-  difficulty          String?
-  attemptedStudents   attemptedQuestion[]
-  TeacherId           String?  @unique
-  author              Teacher? @relation("teacherQuestions", fields: [TeacherId], references: [id])
+  id                String              @id @default(uuid())
+  statement         String
+  answer            String
+  type              String
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  options           String[]            @default([])
+  coins             Int?
+  language          String
+  difficulty        String?
+  attemptedStudents attemptedQuestion[]
+  TeacherId         String?             @unique
+  author            Teacher?            @relation("teacherQuestions", fields: [TeacherId], references: [id])
   // statsId    String?
   // Quiz       Quiz?    @relation(fields: [quizId], references: [id])
   // quizId     String?
 }
 
 model attemptedQuestion {
-  question       Questions     @relation(fields: [questionId], references: [id])
-  questionId     String // relation scalar field (used in the `@relation` attribute above)
-  student   Student @relation(fields: [studentId], references: [id])
-  studentId String // relation scalar field (used in the `@relation` attribute above)
-  assignedAt DateTime @default(now())
-  correct    Boolean @default(false)
+  question   Questions @relation(fields: [questionId], references: [id])
+  questionId String // relation scalar field (used in the `@relation` attribute above)
+  student    Student   @relation(fields: [studentId], references: [id])
+  studentId  String // relation scalar field (used in the `@relation` attribute above)
+  assignedAt DateTime  @default(now())
+  correct    Boolean   @default(false)
+
   @@id([questionId, studentId])
 }
 
 model Purchase {
-  id       String  @id @default(uuid())
-  userId   String  @unique
-  courseId String  @unique
-  course   Courses @relation(fields: [courseId], references: [id])
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  courseId  String   @unique
+  course    Courses  @relation(fields: [courseId], references: [id])
   createdAt DateTime @default(now())
 }
 

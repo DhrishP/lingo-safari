@@ -50,7 +50,7 @@ export default function RolePage(){
       </CardHeader>
       <CardContent>
         <form>
-          <div className="grid w-full items-center gap-4">
+          <div className="grid w-full items-center gap-4" >
             <div className="flex flex-col space-y-2.5">
               <Label htmlFor="name">Give Yourself a Nickname</Label>
               <Input id="name" placeholder="Username" />

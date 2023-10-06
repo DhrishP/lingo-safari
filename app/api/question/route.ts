@@ -42,9 +42,11 @@ export async function POST(
         req: Request
     ) {
         try {
-            const { userId } = auth()
-            const params = new URL(req.url).searchParams
-            const language = params.get("language")
+            const { userId } = await auth()
+            const { searchParams} = new URL(req.url)
+            const language = searchParams.get("language")
+            console.log(language)
+            console.log(userId)
             if(!language)return NextResponse.json("selct a language")
             if (!userId) return NextResponse.json("Unauthorized")
             const questions = await prisma.questions.findMany({

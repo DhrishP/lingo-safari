@@ -1,6 +1,6 @@
 "use client"
 import axios from 'axios'
-import { redirect } from 'next/navigation'
+import { redirect, useRouter } from 'next/navigation'
 import React, { useRef } from 'react'
 import Header from "@/components/Header/Header"
 
@@ -28,15 +28,17 @@ export default function RolePage(){
     const [Teacher,SetTeacher] = React.useState(false)
     const Handlesubmit =async () => {
         const input = usernameRef.current?.value
+        console.log(input)
         if(Teacher){
-            const res = await axios.post('/api/user',{message:"Teacher",username:input})
+            const res = await axios.post('/api/user',{type:"Teacher",username:input})
             if(!res) return 
         }
         if(!Teacher){
-            const res = await axios.post('/api/user',{message:"Student",username:input})
+            const res = await axios.post('/api/user',{type:"Student",username:input})
+            if(!res) return
         }
-        
-        redirect('/quiz')
+        const router = useRouter()
+        router.push('/quiz')
     }
   return (
     <div>
@@ -53,7 +55,7 @@ export default function RolePage(){
           <div className="grid w-full items-center gap-4" >
             <div className="flex flex-col space-y-2.5">
               <Label htmlFor="name">Give Yourself a Nickname</Label>
-              <Input className='bg-purple-500 text-white' id="name" placeholder="Username" />
+              <Input ref={usernameRef} id="name" placeholder="Username" />
             </div>
             <div className="flex flex-col space-y-2.5">
               <Label htmlFor="framework">Choose your Profession: </Label>
@@ -74,7 +76,7 @@ export default function RolePage(){
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline">Back</Button>
-        <Button className=' bg-purple-300 text-black'>Next</Button>
+        <Button onClick={()=>{Handlesubmit()}} type='submit'>Next</Button>
       </CardFooter>
     </Card>
     </div>

@@ -41,6 +41,7 @@ model Questions {
   id                  String   @id @default(uuid())
   statement           String
   answer              String
+  type                String
   createdAt           DateTime @default(now())
   updatedAt           DateTime @updatedAt
   options             String[] @default([])

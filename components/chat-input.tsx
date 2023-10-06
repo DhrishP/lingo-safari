@@ -65,7 +65,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
                       <>
                         <div
                           key={item}
-                          className="bg-blue-600 inline-block  text-white dark:bg-blue-400 p-2 rounded-lg text-left"
+                          className=" inline-block  text-white dark:bg-purple-700 p-2 rounded-lg text-left"
                         >
                           <p className="text-sm ">{item}</p>
                         </div>
@@ -76,7 +76,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
                       <>
                         <div
                           key={item}
-                          className="bg-white inline-block text-end p-2 rounded-lg "
+                          className="bg-purple-500 bg-opacity-20 inline-block text-end p-2 rounded-[6px]"
                         >
                           <p className="text-sm  ">{item}</p>
                         </div>

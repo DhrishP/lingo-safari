@@ -8,13 +8,14 @@ datasource db {
 }
 
 model Student {
-  id        String              @id @default(uuid())
-  userId    String              @unique
-  username  String
-  coins     Int                 @default(0)
-  PrefTime  Int                 @default(5)
-  questions attemptedQuestion[]
-  createdAt DateTime            @default(now())
+  id         String              @id @default(uuid())
+  userId     String              @unique
+  username   String
+  coins      Int                 @default(0)
+  PrefTime   Int                 @default(5)
+  questions  attemptedQuestion[]
+  difficulty String @default("easy")
+  createdAt  DateTime            @default(now())
 }
 
 model Teacher {

@@ -15,7 +15,7 @@ import toast from "react-hot-toast";
 export default function QuizCard({
   QuizArray,
   Preference,
-  StudentId
+  StudentId,
 }: {
   QuizArray: QuestionProps[];
   Preference: number;
@@ -24,7 +24,6 @@ export default function QuizCard({
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   let random = Math.floor(Math.random() * QuizArray.length);
   let randomQuiz: QuestionProps[] = [];
-  const dummyvar = 5;
   for (let i = 0; i < QuizArray.length; i++) {
     randomQuiz.push(QuizArray[random]);
   }
@@ -114,7 +113,6 @@ export default function QuizCard({
             {randomQuiz[currentQuestion].options[3]}
           </Button>
         </div>
-     
       </div>
     </>
   );

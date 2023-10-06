@@ -1,0 +1,752 @@
+[
+    {
+        "id": 201,
+        "question_type": "blank_statement",
+        "statement": "Él ________ su casa.",
+        "answer": "limpia",
+        "options": [
+            "limpia",
+            "cocina",
+            "estudia",
+            "lee"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 202,
+        "question_type": "blank_statement",
+        "statement": "Yo ________ al cine.",
+        "answer": "voy",
+        "options": [
+            "voy",
+            "vuelvo",
+            "vengo",
+            "viajo"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 203,
+        "question_type": "blank_statement",
+        "statement": "Ella tiene ________ hermano.",
+        "answer": "un",
+        "options": [
+            "un",
+            "una",
+            "el",
+            "la"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 170
+    },
+    {
+        "id": 204,
+        "question_type": "blank_statement",
+        "statement": "El perro está ________ la mesa.",
+        "answer": "debajo de",
+        "options": [
+            "debajo de",
+            "encima de",
+            "al lado de",
+            "enfrente de"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 160
+    },
+    {
+        "id": 205,
+        "question_type": "synonym",
+        "statement": "Happy",
+        "answer": "Feliz",
+        "options": [
+            "Feliz",
+            "Contento",
+            "Alegre",
+            "Goce"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 200
+    },
+    {
+        "id": 206,
+        "question_type": "synonym",
+        "statement": "Beautiful",
+        "answer": "Hermoso",
+        "options": [
+            "Hermoso",
+            "Bonito",
+            "Lindo",
+            "Bello"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 190
+    },
+    {
+        "id": 207,
+        "question_type": "blank_statement",
+        "statement": "Nosotros ________ en el parque.",
+        "answer": "jugamos",
+        "options": [
+            "jugamos",
+            "jugar",
+            "juega",
+            "juegan"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 180
+    },
+    {
+        "id": 208,
+        "question_type": "blank_statement",
+        "statement": "Él ________ un libro.",
+        "answer": "lee",
+        "options": [
+            "lee",
+            "leer",
+            "leyó",
+            "leyendo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 150
+    },
+    {
+        "id": 209,
+        "question_type": "synonym",
+        "statement": "Tired",
+        "answer": "Cansado",
+        "options": [
+            "Cansado",
+            "Fatigado",
+            "Agotado",
+            "Molido"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 130
+    },
+    {
+        "id": 210,
+        "question_type": "synonym",
+        "statement": "Fast",
+        "answer": "Rápido",
+        "options": [
+            "Rápido",
+            "Veloz",
+            "Pronto",
+            "De prisa"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 211,
+        "question_type": "blank_statement",
+        "statement": "Ella ________ a la tienda.",
+        "answer": "va",
+        "options": [
+            "va",
+            "fue",
+            "irá",
+            "ir"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 212,
+        "question_type": "blank_statement",
+        "statement": "Nosotros ________ la cena.",
+        "answer": "comemos",
+        "options": [
+            "comemos",
+            "comeremos",
+            "comer",
+            "comía"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 160
+    },
+    {
+        "id": 213,
+        "question_type": "blank_statement",
+        "statement": "Tú tienes ________ lápiz.",
+        "answer": "un",
+        "options": [
+            "un",
+            "una",
+            "el",
+            "la"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 180
+    },
+    {
+        "id": 214,
+        "question_type": "blank_statement",
+        "statement": "El libro está ________ la mesa.",
+        "answer": "encima de",
+        "options": [
+            "encima de",
+            "debajo de",
+            "al lado de",
+            "enfrente de"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 190
+    },
+    {
+        "id": 215,
+        "question_type": "synonym",
+        "statement": "Happy",
+        "answer": "Feliz",
+        "options": [
+            "Feliz",
+            "Alegre",
+            "Contento",
+            "Goce"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 150
+    },
+    {
+        "id": 216,
+        "question_type": "synonym",
+        "statement": "Beautiful",
+        "answer": "Bello",
+        "options": [
+            "Bello",
+            "Hermoso",
+            "Bonito",
+            "Lindo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 130
+    },
+    {
+        "id": 217,
+        "question_type": "blank_statement",
+        "statement": "Ellos ________ al parque.",
+        "answer": "van",
+        "options": [
+            "van",
+            "ir",
+            "vas",
+            "fueron"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 170
+    },
+    {
+        "id": 218,
+        "question_type": "blank_statement",
+        "statement": "Él ________ una carta.",
+        "answer": "escribe",
+        "options": [
+            "escribe",
+            "escribir",
+            "escribió",
+            "escribiendo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 110
+    },
+    {
+        "id": 219,
+        "question_type": "synonym",
+        "statement": "Tired",
+        "answer": "Fatigado",
+        "options": [
+            "Fatigado",
+            "Cansado",
+            "Agotado",
+            "Molido"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 220,
+        "question_type": "synonym",
+        "statement": "Fast",
+        "answer": "Veloz",
+        "options": [
+            "Veloz",
+            "Rápido",
+            "Pronto",
+            "De prisa"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 221,
+        "question_type": "blank_statement",
+        "statement": "Ellos ________ en la playa.",
+        "answer": "juegan",
+        "options": [
+            "juegan",
+            "jugarán",
+            "jugar",
+            "jugando"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 222,
+        "question_type": "blank_statement",
+        "statement": "Ella ________ al colegio.",
+        "answer": "va",
+        "options": [
+            "va",
+            "fue",
+            "irá",
+            "ir"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 160
+    },
+    {
+        "id": 223,
+        "question_type": "blank_statement",
+        "statement": "Él tiene ________ bicicleta.",
+        "answer": "una",
+        "options": [
+            "una",
+            "un",
+            "el",
+            "la"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 180
+    },
+    {
+        "id": 224,
+        "question_type": "blank_statement",
+        "statement": "La silla está ________ la mesa.",
+        "answer": "al lado de",
+        "options": [
+            "al lado de",
+            "debajo de",
+            "encima de",
+            "enfrente de"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 190
+    },
+    {
+        "id": 225,
+        "question_type": "synonym",
+        "statement": "Happy",
+        "answer": "Contento",
+        "options": [
+            "Contento",
+            "Alegre",
+            "Feliz",
+            "Goce"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 150
+    },
+    {
+        "id": 226,
+        "question_type": "synonym",
+        "statement": "Beautiful",
+        "answer": "Precioso",
+        "options": [
+            "Precioso",
+            "Bello",
+            "Hermoso",
+            "Bonito"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 130
+    },
+    {
+        "id": 227,
+        "question_type": "blank_statement",
+        "statement": "Ellos ________ en el cine.",
+        "answer": "van",
+        "options": [
+            "van",
+            "ir",
+            "vas",
+            "fueron"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 170
+    },
+    {
+        "id": 228,
+        "question_type": "blank_statement",
+        "statement": "Él ________ una carta.",
+        "answer": "escribe",
+        "options": [
+            "escribe",
+            "escribir",
+            "escribió",
+            "escribiendo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 110
+    },
+    {
+        "id": 229,
+        "question_type": "synonym",
+        "statement": "Tired",
+        "answer": "Cansado",
+        "options": [
+            "Cansado",
+            "Fatigado",
+            "Agotado",
+            "Molido"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 230,
+        "question_type": "synonym",
+        "statement": "Fast",
+        "answer": "Rápido",
+        "options": [
+            "Rápido",
+            "Veloz",
+            "Pronto",
+            "De prisa"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 231,
+        "question_type": "blank_statement",
+        "statement": "Nosotros ________ al cine.",
+        "answer": "vamos",
+        "options": [
+            "vamos",
+            "va",
+            "ir",
+            "fue"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 232,
+        "question_type": "blank_statement",
+        "statement": "Ella ________ en la biblioteca.",
+        "answer": "estudia",
+        "options": [
+            "estudia",
+            "estudiará",
+            "estudió",
+            "estudiando"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 160
+    },
+    {
+        "id": 233,
+        "question_type": "blank_statement",
+        "statement": "Tú tienes ________ hermano.",
+        "answer": "un",
+        "options": [
+            "un",
+            "una",
+            "el",
+            "la"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 180
+    },
+    {
+        "id": 234,
+        "question_type": "blank_statement",
+        "statement": "La pluma está ________ la mesa.",
+        "answer": "sobre",
+        "options": [
+            "sobre",
+            "debajo",
+            "al lado",
+            "enfrente"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 190
+    },
+    {
+        "id": 235,
+        "question_type": "synonym",
+        "statement": "Happy",
+        "answer": "Alegre",
+        "options": [
+            "Alegre",
+            "Feliz",
+            "Contento",
+            "Goce"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 150
+    },
+    {
+        "id": 236,
+        "question_type": "synonym",
+        "statement": "Beautiful",
+        "answer": "Bonito",
+        "options": [
+            "Bonito",
+            "Hermoso",
+            "Lindo",
+            "Bello"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 130
+    },
+    {
+        "id": 237,
+        "question_type": "blank_statement",
+        "statement": "Ellos ________ en la montaña.",
+        "answer": "escalaban",
+        "options": [
+            "escalaban",
+            "escalaron",
+            "escalan",
+            "escalarán"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 170
+    },
+    {
+        "id": 238,
+        "question_type": "blank_statement",
+        "statement": "Ella ________ una carta.",
+        "answer": "escribe",
+        "options": [
+            "escribe",
+            "escribir",
+            "escribió",
+            "escribiendo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 110
+    },
+    {
+        "id": 239,
+        "question_type": "synonym",
+        "statement": "Tired",
+        "answer": "Cansado",
+        "options": [
+            "Cansado",
+            "Fatigado",
+            "Agotado",
+            "Molido"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 240,
+        "question_type": "synonym",
+        "statement": "Fast",
+        "answer": "Veloz",
+        "options": [
+            "Veloz",
+            "Rápido",
+            "Pronto",
+            "De prisa"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 241,
+        "question_type": "blank_statement",
+        "statement": "Nosotros ________ fútbol en el parque.",
+        "answer": "jugamos",
+        "options": [
+            "jugamos",
+            "jugar",
+            "juega",
+            "juegan"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 140
+    },
+    {
+        "id": 242,
+        "question_type": "blank_statement",
+        "statement": "Ella ________ a la tienda.",
+        "answer": "va",
+        "options": [
+            "va",
+            "fue",
+            "irá",
+            "ir"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 160
+    },
+    {
+        "id": 243,
+        "question_type": "blank_statement",
+        "statement": "Él tiene ________ perro.",
+        "answer": "un",
+        "options": [
+            "un",
+            "una",
+            "el",
+            "la"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 180
+    },
+    {
+        "id": 244,
+        "question_type": "blank_statement",
+        "statement": "La computadora está ________ la mesa.",
+        "answer": "encima de",
+        "options": [
+            "encima de",
+            "debajo de",
+            "al lado de",
+            "enfrente de"
+        ],
+        "difficulty": "beginner",
+        "language": "es",
+        "coins": 190
+    },
+    {
+        "id": 245,
+        "question_type": "synonym",
+        "statement": "Happy",
+        "answer": "Feliz",
+        "options": [
+            "Feliz",
+            "Alegre",
+            "Contento",
+            "Goce"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 150
+    },
+    {
+        "id": 246,
+        "question_type": "synonym",
+        "statement": "Beautiful",
+        "answer": "Hermoso",
+        "options": [
+            "Hermoso",
+            "Bonito",
+            "Lindo",
+            "Bello"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 130
+    },
+    {
+        "id": 247,
+        "question_type": "blank_statement",
+        "statement": "Ellos ________ al cine.",
+        "answer": "van",
+        "options": [
+            "van",
+            "ir",
+            "vas",
+            "fueron"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 170
+    },
+    {
+        "id": 248,
+        "question_type": "blank_statement",
+        "statement": "Él ________ una carta.",
+        "answer": "escribe",
+        "options": [
+            "escribe",
+            "escribir",
+            "escribió",
+            "escribiendo"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 110
+    },
+    {
+        "id": 249,
+        "question_type": "synonym",
+        "statement": "Tired",
+        "answer": "Cansado",
+        "options": [
+            "Cansado",
+            "Fatigado",
+            "Agotado",
+            "Molido"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 120
+    },
+    {
+        "id": 250,
+        "question_type": "synonym",
+        "statement": "Fast",
+        "answer": "Veloz",
+        "options": [
+            "Veloz",
+            "Rápido",
+            "Pronto",
+            "De prisa"
+        ],
+        "difficulty": "intermediate",
+        "language": "es",
+        "coins": 140
+    }
+]

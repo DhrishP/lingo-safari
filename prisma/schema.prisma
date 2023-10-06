@@ -60,10 +60,10 @@ model Questions {
 }
 
 model Purchase {
-  id        String   @id @default(uuid())
-  userId    String   @unique
-  courseId  String   @unique
-  course    Courses  @relation(fields: [courseId], references: [id])
+  id       String  @id @default(uuid())
+  userId   String  @unique
+  courseId String  @unique
+  course   Courses @relation(fields: [courseId], references: [id])
   createdAt DateTime @default(now())
 }
 

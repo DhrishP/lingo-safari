@@ -44,7 +44,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
           type="submit"
           className="btn rounded-none mr-2 relative bottom-[2.2rem]   btn-sm self-end "
         >
-          <Send className="w-5  h-5 text-primary " />
+          <Send className="w-5 h-5 text-primary " />
         </button>
       </form>
       {messages.length > 0 ? (
@@ -52,9 +52,9 @@ const ChatInput = ({ className }: ChatInputProps) => {
           {messages.map((message: Message) => (
             <div key={message.id}>
               {message.role === "assistant" ? (
-                <h3 className="text-sm font-semibold mt-2">AI Assistant</h3>
+                <h3 className="text-sm font-semibold mx-5 mt-2">AI Assistant</h3>
               ) : (
-                <h3 className="text-sm font-semibold mt-2  mr-1">You</h3>
+                <h3 className="text-sm font-semibold mt-2  mx-3 mr-1">You</h3>
               )}
               {message.content.split("\n").map((item: string) => {
                 if (item === "") {
@@ -76,7 +76,7 @@ const ChatInput = ({ className }: ChatInputProps) => {
                       <>
                         <div
                           key={item}
-                          className="bg-purple-500 bg-opacity-20 inline-block text-end p-2 rounded-[6px]"
+                          className="bg-purple-500 bg-opacity-20 mx-3 inline-block text-end p-2 rounded-[6px]"
                         >
                           <p className="text-sm  ">{item}</p>
                         </div>

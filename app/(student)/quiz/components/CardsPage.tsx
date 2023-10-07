@@ -4,7 +4,7 @@ export default function CardsPage() {
   return (
     <div className=" flex flex-col py-6 px-24 gap-12 w-full justify-center items-center min-h-[80vh]">
       <h1 className=" text-2xl font-bold text-center">I want to Learn... </h1>
-      <div className=" flex flex-row w-full gap-12">
+      <div className=" flex flex-col flex-wrap lg:flex-nowrap lg:flex-row w-full gap-12">
         <div className=" w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12">
           <img
             className=" w-full h-48 shadow-md rounded-2xl border-slate-100 border"

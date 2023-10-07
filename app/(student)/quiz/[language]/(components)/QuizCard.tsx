@@ -25,6 +25,7 @@ export default function QuizCard({
   StudentId: string;
 }) {
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
+  const [coin, setcoin] = React.useState(0)
   let random = Math.floor(Math.random() * QuizArray.length);
   let randomQuiz: QuestionProps[] = [];
   for (let i = 0; i < QuizArray.length; i++) {
@@ -44,7 +45,8 @@ export default function QuizCard({
     const addAttemptedQuestion = await saveRecord(randomQuiz[currentQuestion].id, randomQuiz[currentQuestion].answer,option, randomQuiz[currentQuestion].type)
     if (checker(randomQuiz[currentQuestion].answer, option,randomQuiz[currentQuestion].type)) {
       setCorrect([...correct, option]);
-      toast.success("Correct Answer");
+      toast.success(`Correct Answer +${randomQuiz[currentQuestion].coins} 🪙`);
+      setcoin(coin+randomQuiz[currentQuestion].coins);
       setCurrentQuestion(currentQuestion + 1);
     } else {
       toast.error("Wrong Answer");
@@ -71,8 +73,9 @@ export default function QuizCard({
 
   return randomQuiz[currentQuestion]&&(
     <>
-      <div className="space-y-40">
-        <Card className="w-[75vw] p-8 bg-slate-200 text-black rounded-xl">
+      <div className=" space-y-6 md:space-y-16 lg:space-y-24 px-6 md:px-12 lg:px-24">
+        <h1 className={`${coin>0?"opacity-100":"opacity-0"} transition-all font-bold text-xl text-center`}> Total coins earned : {coin}🪙</h1>
+        <Card className=" w-full p-8 bg-slate-200 text-black rounded-xl">
           <CardContent className="space-y-3  ">
             <CardTitle className="font-bold flex flex-row gap-2">Your Question<span onClick={()=>{textToAudio()}}><Volume2/></span></CardTitle>
             <CardDescription className="capitalize ">
@@ -100,7 +103,7 @@ export default function QuizCard({
           </Button>
         </div>
         :
-        <div className="flex space-x-6 w-full justify-center">
+        <div className="flex flex-col lg:flex-row gap-6 w-full justify-center">
           <Button
             onClick={() => {
               HandleOption(randomQuiz[currentQuestion].options[0]);

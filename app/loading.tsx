@@ -9,7 +9,7 @@ export default function Loading() {
         <motion.img animate={{ translateY: [0, -60, 0] }}
                 transition={{ ease: "linear", duration: 8, repeat: Infinity }} height={300} width={300} src='/loading.png'></motion.img>
         <div className="race-by"></div>
-        <h1 className=' text-center font-medium text-lg py-2'>Hold up! we're cooking...</h1>
+        <h1 className=' text-center font-medium text-lg py-2'>Hold up! we&apos;re cooking...</h1>
         
     </div>
   )

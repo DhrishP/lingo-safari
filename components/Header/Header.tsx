@@ -30,7 +30,7 @@ const Header = () => {
         <div className="px-1 text-md">
           <a href="/" className="px-4">Home</a>
           <a href="/quiz" className="px-4">Quizes</a>
-          <a href="/profile" className="px-4">Profile</a>
+          <a href="/rewards" className="px-4">Rewards</a>
 
 
         </div>

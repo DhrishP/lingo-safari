@@ -27,6 +27,13 @@ const Header = () => {
         
       </Link>
       <div className="pr-5 hidden lg:flex gap-5 items-center">
+        <div className="px-1 text-md">
+          <a href="/" className="px-4">Home</a>
+          <a href="/" className="px-4">Quizes</a>
+          <a href="/" className="px-4">Profile</a>
+
+
+        </div>
         <div className="flex items-center space-x-5">
           <Link
             href={"/leaderboard"}

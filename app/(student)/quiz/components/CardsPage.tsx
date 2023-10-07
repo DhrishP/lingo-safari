@@ -17,7 +17,7 @@ export default function CardsPage() {
   return lang===""?(
     <div className=" flex flex-col py-16 px-6 md:px-24 gap-12 w-full justify-center items-center min-h-screen">
       <h1 className=" text-2xl font-bold text-center">I want to Learn...</h1>
-      <div className=" flex flex-col flex-wrap lg:flex-nowrap lg:flex-row w-full gap-12 mb-28">
+      <div className=" flex flex-col flex-wrap lg:flex-nowrap lg:flex-row w-full gap-4 mb-28">
         <div className=" w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12">
           <img
             className=" w-full h-auto shadow-md rounded-2xl object-cover	 border-slate-100 border"

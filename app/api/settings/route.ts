@@ -7,9 +7,7 @@ export async function POST(req: Request) {
     const { username, difficulty } = await req.json();
     const { userId } = auth();
 
-    if (!userId) {
-      return { status: 401 };
-    }
+    if(!userId) return NextResponse.json("Unauthorized")
     const res = await prisma.student.update({
       where: {
         userId,
@@ -19,7 +17,7 @@ export async function POST(req: Request) {
         difficulty: difficulty,
       },
     });
-    return NextResponse.json(res)
+    return NextResponse.json(JSON.stringify(res))
   } catch (error) {
     return NextResponse.json({ status: 500 });
   }

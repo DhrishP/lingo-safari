@@ -11,13 +11,13 @@ import { auth } from "@clerk/nextjs";
 export default async function QuizPage({
   params,
 }: {
-  params: { language: string };
+  params: { language: string, difficulty: string, type: string };
 }) {
   let data: QuestionProps[] = [];
   try {
     const res = await axios.post(
       `${process.env.NEXT_PUBLIC_APP_URL}/api/test`,
-      { language: params.language as string }
+      { language: params.language as string, difficulty: params.difficulty as string }
     );
     if (res) {
       data = res.data;
@@ -49,7 +49,9 @@ export default async function QuizPage({
 
   return (
     <div className="min-h-[80vh] w-full flex justify-center items-center ">
+      
       <QuizCard
+        type={params.type}
         QuizArray={NotAttemptedArr}
         StudentId={findStudentID.id}
         Preference={findStudentID.PrefTime}

@@ -48,7 +48,7 @@ export default async function QuizPage({
   const NotAttemptedArr = data;
 
   return (
-    <div className="h-screen flex justify-center items-center ">
+    <div className="min-h-[80vh] w-full flex justify-center items-center ">
       <QuizCard
         QuizArray={NotAttemptedArr}
         StudentId={findStudentID.id}

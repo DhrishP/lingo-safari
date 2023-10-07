@@ -2,6 +2,7 @@ import './style.css'
 import React from "react";
 import { useUser } from "@clerk/nextjs";
 import Image from "next/image";
+import axios from 'axios';
 export type ProfilesPropss = {
   id: string;
   username: string;
@@ -13,15 +14,16 @@ export type ProfilesProps = {
   Leaderboard: ProfilesPropss[];
 };
 
-export default function Profiles({ Leaderboard }: ProfilesProps) {
+export default async function Profiles({ Leaderboard }: ProfilesProps) {
   const user = useUser();
-
   return (
     <div>
-      {Leaderboard.map((profile, index) => {
+      {Leaderboard.map(async(profile, index) => {
+        
+  const coin = await axios.post("/api/leaderboard",{userId:profile.userId})
         return (
             <div id="profile">
-          <div className="flex" key={profile.id}>
+          <div className="flex" key={profile.userId}>
             <div className="item">
               <Image
                 width={45}
@@ -35,7 +37,7 @@ export default function Profiles({ Leaderboard }: ProfilesProps) {
               </div>
             </div>
             <div className="item text-orane-400 space-x-2">
-              <span>{profile.coins}</span><Image width={40} height={40} src={'/coin.png'} alt=''/>
+              <span>{coin.data}</span><Image width={40} height={40} src={'/coin.png'} alt=''/>
             </div>
           </div>
             </div>

@@ -46,8 +46,7 @@ where: {
   },
 },
 });
-const correct = (await res).map((attemptedQuestion) =>
-attemptedQuestion.correct === true ? attemptedQuestion.questionId : ""
+const correct = (await res).map((attemptedQuestion) =>attemptedQuestion.correct === true ? attemptedQuestion.questionId : ""
 );
 let coin = 0;
 for (let i = 0; i < fetchcoinval.length; i++) {

@@ -42,22 +42,16 @@ export default function Board() {
 }
 
 function between(data: any, between: any) {
-  const today = new Date();
-  const previous = new Date(today);
-  previous.setDate(previous.getDate() - (between + 1));
+    const today = new Date();
+    const previous = new Date(today);
+    previous.setDate(previous.getDate() - (between + 1));
 
-  let filter = data.filter((val: any) => {
-    let userDate = new Date(val.dt);
-    if (between == 0) return val;
-    return previous <= userDate && today >= userDate;
-  });
+    let filter = data.filter((val: any) => {
+        let userDate = new Date(val.dt);
+        if (between == 0) return val;
+        return previous <= userDate && today >= userDate;
+    });
 
-  // sort with asending order
-  return filter.sort((a: any, b: any) => {
-    if (a.score === b.score) {
-      return b.score - a.score;
-    } else {
-      return b.score - a.score;
-    }
-  });
+    // sort with descending order based on score
+    return filter.sort((a: any, b: any) => b.score - a.score);
 }

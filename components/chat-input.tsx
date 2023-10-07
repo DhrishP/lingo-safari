@@ -13,8 +13,6 @@ const ChatInput = ({ className }: ChatInputProps) => {
   const { input, handleInputChange, handleSubmit, isLoading, messages } =
     useChat();
 
-  console.log("messages", messages);
-
   return (
     <div className="overflow-y-scroll">
       <form

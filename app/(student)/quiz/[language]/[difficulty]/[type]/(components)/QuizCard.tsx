@@ -16,10 +16,12 @@ import toast from "react-hot-toast";
 import { Volume2 } from "lucide-react";
 
 export default function QuizCard({
+  type,
   QuizArray,
   Preference,
   StudentId,
 }: {
+  type: string;
   QuizArray: QuestionProps[];
   Preference: number;
   StudentId: string;
@@ -42,14 +44,14 @@ export default function QuizCard({
   const [correct, setCorrect] = React.useState<string[]>([]);
   const openRef = React.useRef<HTMLInputElement>(null);
   const HandleOption = async (option: string) => {
-    const addAttemptedQuestion = await saveRecord(randomQuiz[currentQuestion].id, randomQuiz[currentQuestion].answer,option, randomQuiz[currentQuestion].type)
-    if (checker(randomQuiz[currentQuestion].answer, option,randomQuiz[currentQuestion].type)) {
+    const addAttemptedQuestion = await saveRecord(randomQuiz[currentQuestion].id, randomQuiz[currentQuestion].answer,option, type)
+    if (checker(randomQuiz[currentQuestion].answer, option,type)) {
       setCorrect([...correct, option]);
       toast.success(`Correct Answer +${randomQuiz[currentQuestion].coins} 🪙`);
       setcoin(coin+randomQuiz[currentQuestion].coins);
       setCurrentQuestion(currentQuestion + 1);
     } else {
-      toast.error("Wrong Answer");
+      toast.error(`Wrong Answer, it should be "${randomQuiz[currentQuestion].answer}"`);
       setCurrentQuestion(currentQuestion + 1);
       console.log(QuizArray.length-currentQuestion)
       
@@ -87,13 +89,14 @@ export default function QuizCard({
             </div>
           </CardContent>
         </Card>
-        {randomQuiz[currentQuestion].type==="open_ended"?<div className="flex space-x-6 w-full justify-center">
+        {type==="open_ended"?<div className="flex space-x-6 w-full justify-center">
         <input ref={openRef} className=" w-full rounded-xl py-2 px-4 bg-slate-100  border-zinc-950 border text text-zinc-950" ></input>
         <Button
             onClick={() => {
               const input = openRef.current?.value
               if(input)
               HandleOption(input);
+            openRef.current!.value=""
             }}
             size={"lg"}
             className="px-24 bg-slate-50 hover:bg-purple-400 capitalize hover:text-gray-200 text-black  py-6 rounded-xl"

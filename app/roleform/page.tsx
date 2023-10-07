@@ -21,6 +21,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Footer from "@/components/Footer/Footer";
 
 export default function RolePage() {
   const router = useRouter();
@@ -53,7 +54,7 @@ export default function RolePage() {
           Lets <span className="gradText1 leading-snug">Break</span> the ice.
         </h1>
         <div className="gradient1"></div>
-        <Card className="w-[350px] bg-opacity-10 bg-purple-300 rounded-xl border-gray-600">
+        <Card className="w-3/12 bg-opacity-10 bg-purple-300 rounded-xl border-gray-600 p-6 mb-24">
           <CardHeader>
             <CardTitle>Tell us about yourself</CardTitle>
             <CardDescription></CardDescription>
@@ -94,6 +95,9 @@ export default function RolePage() {
           </CardFooter>
         </Card>
       </div>
+      <Footer />
+
     </div>
+            
   );
 }

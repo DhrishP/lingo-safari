@@ -3,6 +3,7 @@ import React from "react";
 import { useUser } from "@clerk/nextjs";
 import Image from "next/image";
 import axios from 'axios';
+import Footer from '@/components/Footer/Footer';
 export type ProfilesPropss = {
   id: string;
   username: string;

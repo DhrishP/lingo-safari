@@ -6,6 +6,8 @@ const LeaderboardPage = () => {
   return (
     <div className='App' id='main'>
    <Board/>
+   
+
    </div>
   )
 }

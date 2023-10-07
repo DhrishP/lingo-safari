@@ -80,7 +80,7 @@
 }
 
 .gradText1{
-  background: linear-gradient(0deg, #3B29FF 50%, #FFF 107.76%);
+  background: linear-gradient(0deg, #6354ff 20%, #ffffff 107.76%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

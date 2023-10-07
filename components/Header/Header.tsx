@@ -6,13 +6,13 @@ import { Button } from "../ui/button";
 import { Settings, Users } from "lucide-react";
 import Link from "next/link";
 const Header = () => {
-  const menu = "/public/menu.svg";
+  const menu = "/menu.svg";
   const cross = "/public/cross.svg";
   const [toggle, setToggle] = useState(false);
 
   const handleClick = () => setToggle(!toggle);
   return (
-    <div className="relative flex justify-between items-center w-full mt-5">
+    <div className="flex justify-between pt-0 items-center w-full mt-5 sticky top-0 z-20  ">
       <Link href={'/'} className="inline-flex items-center pl-9 gap-[14px] relative">
      
           {" "}
@@ -53,6 +53,29 @@ const Header = () => {
           <UserButton afterSignOutUrl="/" />
         </div>
       </div>
+      <div className="lg:hidden z-40" onClick={handleClick}>
+        <img
+          src= {menu}
+          alt="menu"
+          className="w-[28px] h-[28px] object-contain mr-5 cursor-pointer"
+        />
+      </div>
+      <ul
+        className={
+          toggle ? "pt-24 pb-8 absolute top-0 bg-black shadow-sm z-20 w-full px-8 lg:hidden flex flex-col items-center gap-5" : "hidden"
+        }
+      >
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/quiz">Quizes</a>
+        </li>
+        <li>
+          <a href="/profile">Profile</a>
+        </li>
+       
+      </ul>
     </div>
   );
 };

@@ -28,7 +28,6 @@ export default function RootLayout({
         <Chat/>
         <Header/>
         {children}
-        <Footer />
         </body>
     </html>
     </ClerkProvider>

@@ -14,11 +14,24 @@ export async function POST(req: Request) {
       },
       data: {
         username: username,
-        difficulty: difficulty,
       },
     });
     return NextResponse.json(JSON.stringify(res))
   } catch (error) {
     return NextResponse.json({ status: 500 });
   }
+}
+
+export async function GET(req: Request) {   
+    const { userId } = auth();
+    if(!userId) return NextResponse.json("Unauthorized")
+ const res = await prisma.student.findFirst({
+    where:{
+        userId
+    }
+ })
+ 
+    return NextResponse.json(res?.username)
+
+
 }

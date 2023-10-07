@@ -5,6 +5,7 @@ import {ClerkProvider} from '@clerk/nextjs'
 import Chat from '@/components/chat'
 import { ToastProvider } from '@/providers/toast-provider'
 import Header from '@/components/Header/Header'
+import Footer from '@/components/Footer/Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Chat/>
         <Header/>
         {children}
+        <Footer />
         </body>
     </html>
     </ClerkProvider>

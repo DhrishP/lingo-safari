@@ -11,6 +11,15 @@ export async function POST(req: Request) {
     if(!user) return NextResponse.json("not a student");
     const {questionId, correct} = await req.json();
     if (!(questionId)) return NextResponse.json("select a question");
+    const check = await prisma.attemptedQuestion.findUnique({
+      where: {
+        questionId_studentId: {
+          questionId: questionId,
+          studentId: user.id,
+        },
+      },
+    })
+    if(check) return NextResponse.json("already attempted");
     const questions = await prisma.attemptedQuestion.create({
       data: {
         questionId: questionId,

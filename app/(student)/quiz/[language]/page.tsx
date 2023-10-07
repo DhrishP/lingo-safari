@@ -42,9 +42,10 @@ export default async function QuizPage({
   const attemptedQuestionIds = findFinishedQues.map(
     (attemptedQuestion) => attemptedQuestion.questionId
   );
-  const NotAttemptedArr = data.filter(
-    (question) => !attemptedQuestionIds.includes(question.id)
-  );
+  // const NotAttemptedArr = data.filter(
+  //   (question) => !attemptedQuestionIds.includes(question.id)
+  // );
+  const NotAttemptedArr = data;
 
   return (
     <div className="h-screen flex justify-center items-center ">

@@ -18,9 +18,9 @@ const Chat: FC = () => {
       collapsible
       className='relative bg-secondary-content z-40 shadow'>
       <AccordionItem value='item-1'>
-        <div className='fixed right-0 md:right-8 w-11/12 m-4    md:w-80 bottom-8 bg-blue-200 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100 bg-primary-content rounded-2xl overflow-hidden'>
+        <div className='fixed right-0 md:right-8 w-11/12 m-4    md:w-80 bottom-8 bg-gray-950 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 bg-primary-content rounded-2xl overflow-hidden'>
           <div className='w-full h-full flex flex-col '> 
-            <AccordionTrigger className='px-6 border-b h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100
+            <AccordionTrigger className='px-6 border-b h-full w-full bg-gray-950 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100
 '>
               <ChatHeader />
             </AccordionTrigger>

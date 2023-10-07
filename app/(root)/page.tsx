@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Image width={500} height={500} alt="Landing-image" src="/Saly-10.png" />
         <div className="gradient1"></div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -29,8 +29,8 @@ const Header = () => {
       <div className="pr-5 hidden lg:flex gap-5 items-center">
         <div className="px-1 text-md">
           <a href="/" className="px-4">Home</a>
-          <a href="/" className="px-4">Quizes</a>
-          <a href="/" className="px-4">Profile</a>
+          <a href="/quiz" className="px-4">Quizes</a>
+          <a href="/profile" className="px-4">Profile</a>
 
 
         </div>

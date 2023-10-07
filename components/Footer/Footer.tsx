@@ -96,22 +96,22 @@ const Footer = () => {
                 Useful links
               </h6>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-400 dark:text-neutral-200">
+                <a href="/" className="text-neutral-400 dark:text-neutral-200">
                   Home
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-400 dark:text-neutral-200">
+                <a href="/quiz" className="text-neutral-400 dark:text-neutral-200">
                   Quizes
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-400 dark:text-neutral-200">
+                <a href="/profile" className="text-neutral-400 dark:text-neutral-200">
                   Profile
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-neutral-400 dark:text-neutral-200">
+                <a href="/leaderboard" className="text-neutral-400 dark:text-neutral-200">
                   LeaderBoard
                 </a>
               </p>

@@ -66,7 +66,7 @@ export default function RolePage() {
                   <Input ref={usernameRef} id="name" placeholder="Username" />
                 </div>
                 <div className="flex flex-col space-y-2.5">
-                  <Label htmlFor="typeofgame">Choose your Profession: </Label>
+                  <Label htmlFor="typeofgame">Choose your Preference: </Label>
                   <Select>
                     <SelectTrigger id="typeofgame">
                       <SelectValue placeholder="Select" />

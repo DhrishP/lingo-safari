@@ -13,36 +13,38 @@ const Header = () => {
   const handleClick = () => setToggle(!toggle);
   return (
     <div className="relative flex justify-between items-center w-full mt-5">
-      <div className="inline-flex items-center pl-9 gap-[14px] relative">
-        <img
-          className="relative w-[30px] h-[30px]"
-          alt="Group"
-          src="/logo.svg"
-        />
-        <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] hidden lg:flex font-bold text-white text-[20px] tracking-[0] leading-[normal] whitespace-nowrap">
-          Lingo Safari
-        </div>
-      </div>
+      <Link href={'/'} className="inline-flex items-center pl-9 gap-[14px] relative">
+     
+          {" "}
+          <img
+            className="relative w-[30px] h-[30px]"
+            alt="Group"
+            src="/logo.svg"
+          />
+          <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] hidden lg:flex font-bold text-white text-[20px] tracking-[0] leading-[normal] whitespace-nowrap">
+            LingoSafari
+          </div>
+        
+      </Link>
       <div className="pr-5 hidden lg:flex gap-5 items-center">
         <div className="flex items-center space-x-5">
           <Link
-            href={"/courses"}
+            href={"/leaderboard"}
             className="flex cursor-pointer space-x-1 p-2 rounded-xl items-center bg-purple-600 hover:bg-purple-700 transition-all"
           >
             <Users className="w-5 h-5" />
             <p>Leaderboard</p>
           </Link>
           <UserButton afterSignOutUrl="/" />
-          <div className="cursor-pointer">
-          <Settings className="w-5 h-5 "/>
-        </div>
+          <Link href={"/setting"} className="cursor-pointer">
+            <Settings className="w-5 h-5 " />
+          </Link>
         </div>
       </div>
       <div className="lg:hidden z-40 m-4" onClick={handleClick}>
         <div>
           <UserButton afterSignOutUrl="/" />
         </div>
-      
       </div>
     </div>
   );

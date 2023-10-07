@@ -1,74 +1,243 @@
 [
     {
-        "statement": "What is the pronunciation of 'ब'?",
-        "answer": "बबूल",
-        "options": ["बबूल", "केला", "मेला", "गाजर"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "What does 'समुंदर' mean in English?",
+      "options": ["Desert", "Mountain", "River", "Sea"],
+      "answer": "Sea",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'क'?",
-        "answer": "कबूतर",
-        "options": ["कबूतर", "गाजर", "बैंना", "गाय"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "Translate 'माँ' to English.",
+      "options": ["Father", "Mother", "Brother", "Sister"],
+      "answer": "Mother",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'प'?",
-        "answer": "प्याज",
-        "options": ["प्याज", "आलू", "केला", "गोभी"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "What is the English word for 'देखना'?",
+      "options": ["Listen", "Speak", "Read", "See"],
+      "answer": "See",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'द'?",
-        "answer": "देवदार",
-        "options": ["देवदार", "मांस", "दमरू", "मुर्गा"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "Translate 'किताब' into English.",
+      "options": ["Pen", "Book", "Chair", "Table"],
+      "answer": "Book",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'म'?",
-        "answer": "मदरसा",
-        "options": ["मदरसा", "दूध", "दमरू", "कछुआ"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "What does 'फल' mean in English?",
+      "options": ["Vegetable", "Fruit", "Animal", "Car"],
+      "answer": "Fruit",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'य'?",
-        "answer": "यक",
-        "options": ["यक", "संगीत", "प्रेम", "हां"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "Translate 'बिल्ली' to English.",
+      "options": ["Dog", "Elephant", "Lion", "Cat"],
+      "answer": "Cat",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'र'?",
-        "answer": "राजमिस्त्री",
-        "options": ["राजमिस्त्री", "सपना", "आकाश", "खुशी"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "What is the English word for 'गर्मी'?",
+      "options": ["Cold", "Rain", "Heat", "Snow"],
+      "answer": "Heat",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     },
     {
-        "statement": "What is the pronunciation of 'ट'?",
-        "answer": "टमाटर",
-        "options": ["टमाटर", "बैंना", "गाजर", "कबूतर"],
-        "difficulty": "beginner",
-        "type": "mcq",
-        "language": "hi",
-        "coins": 110
+      "statement": "Translate 'समय' into English.",
+      "options": ["Time", "Space", "Age", "Distance"],
+      "answer": "Time",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What does 'पेड़' mean in English?",
+      "options": ["Cloud", "Rock", "River", "Tree"],
+      "answer": "Tree",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'मिलना' to English.",
+      "options": ["Meet", "Leave", "Run", "Cry"],
+      "answer": "Meet",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the English word for 'सुनना'?",
+      "options": ["Eat", "See", "Write", "Listen"],
+      "answer": "Listen",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'रंग' into English.",
+      "options": ["Color", "Shape", "Size", "Sound"],
+      "answer": "Color",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What does 'बिल्ली' mean in English?",
+      "options": ["Elephant", "Lion", "Dog", "Cat"],
+      "answer": "Cat",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'चाय' to English.",
+      "options": ["Tea", "Coffee", "Milk", "Water"],
+      "answer": "Tea",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the English word for 'पत्थर'?",
+      "options": ["Rock", "Tree", "River", "Cloud"],
+      "answer": "Rock",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'पूर्व' into English.",
+      "options": ["North", "East", "West", "South"],
+      "answer": "East",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What does 'उठना' mean in English?",
+      "options": ["Sit", "Run", "Jump", "Rise"],
+      "answer": "Rise",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'कुत्ता' into English.",
+      "options": ["Dog", "Cat", "Elephant", "Lion"],
+      "answer": "Dog",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the English word for 'में'?",
+      "options": ["In", "On", "Under", "Beside"],
+      "answer": "In",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Translate 'गाड़ी' to English.",
+      "options": ["Car", "Bus", "Train", "Bicycle"],
+      "answer": "Car",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the Hindi consonant 'क' pronounced as in English?",
+      "options": ["Ka", "Sa", "Da", "Ma"],
+      "answer": "Ka",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Which Hindi consonant is pronounced as 'ख' in the Devanagari script?",
+      "options": ["Ba", "Da", "Kha", "Tha"],
+      "answer": "Kha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "In Hindi, what is the consonant 'ग' pronounced as in English?",
+      "options": ["La", "Ga", "Sha", "Na"],
+      "answer": "Ga",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Which Hindi consonant is pronounced as 'घ' in the Devanagari script?",
+      "options": ["Ja", "Ka", "Cha", "Gha"],
+      "answer": "Gha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the Hindi consonant 'च' pronounced as in English?",
+      "options": ["Ca", "Ta", "Tha", "Cha"],
+      "answer": "Cha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Which Hindi consonant is pronounced as 'झ' in the Devanagari script?",
+      "options": ["Jha", "Dha", "Pha", "Ta"],
+      "answer": "Jha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "In Hindi, what is the consonant 'ट' pronounced as in English?",
+      "options": ["Tha", "Da", "Ta", "Ka"],
+      "answer": "Ta",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Which Hindi consonant is pronounced as 'ठ' in the Devanagari script?",
+      "options": ["Ba", "Ma", "Na", "Tha"],
+      "answer": "Tha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "What is the Hindi consonant 'ड' pronounced as in English?",
+      "options": ["Da", "Ra", "Pa", "Ka"],
+      "answer": "Da",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
+    },
+    {
+      "statement": "Which Hindi consonant is pronounced as 'ढ' in the Devanagari script?",
+      "options": ["Na", "La", "Da", "Dha"],
+      "answer": "Dha",
+      "difficulty": "beginner",
+      "language": "en",
+      "coins": 110
     }
-]
+  ]
+  

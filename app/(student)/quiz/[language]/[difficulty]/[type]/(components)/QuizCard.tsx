@@ -58,7 +58,7 @@ export default function QuizCard({
     }
   };
   const textToAudio=()=>{
-    const text = randomQuiz[currentQuestion].statement.replaceAll(/_/g, "")+" "+randomQuiz[currentQuestion].options.join(", ");
+    const text = type==="mcq"?(randomQuiz[currentQuestion].statement.replaceAll(/_/g, "")+", , "+randomQuiz[currentQuestion].options.join(", ")):randomQuiz[currentQuestion].statement.replaceAll(/_/g, "");
     let msg = text;
     
     let speech = new SpeechSynthesisUtterance();

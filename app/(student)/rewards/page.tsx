@@ -1,12 +1,9 @@
 import { CalculateCoins } from '@/lib/calculate-coins';
-import { auth } from '@clerk/nextjs';
-import axios from 'axios'
 import React from 'react'
 import RewardCard from './components/RewardCard';
-import { title } from 'process';
 
 export default async function page() {
-    const coin = CalculateCoins()
+    const coin = await CalculateCoins()
     const data = [
         {
             "img": "/cpn1.png",

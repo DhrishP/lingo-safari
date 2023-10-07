@@ -8,7 +8,7 @@ export async function POST(
     ) {
       try {
         const { userId } = auth()
-        const {statement, answer, options, difficulty, language } = await req.json()
+        const {statement, answer, options, difficulty, language,type } = await req.json()
         if (!userId) return NextResponse.json("Unauthorized")
         const teacher = await isTeacher(userId)
         if (!teacher) {
@@ -21,6 +21,7 @@ export async function POST(
                     answer:answer,
                     difficulty:difficulty,
                     coins:coins,
+                    type:type,
                     language:language,
                     options:options,
                     TeacherId:teacher.id

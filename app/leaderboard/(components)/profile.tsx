@@ -22,8 +22,8 @@ export default async function Profiles({ Leaderboard }: ProfilesProps) {
         
   const coin = await axios.post("/api/leaderboard",{userId:profile.userId})
         return (
-            <div id="profile">
-          <div className="flex" key={profile.userId}>
+            <div key={profile.userId} id="profile">
+          <div className="flex" >
             <div className="item">
               <Image
                 width={45}

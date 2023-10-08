@@ -20,8 +20,8 @@ export default function CardsPage() {
       <div className=" flex flex-col flex-wrap lg:flex-nowrap lg:flex-row w-full gap-4 mb-28">
         <div className=" w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12">
           <img
-            className=" w-full h-auto shadow-md rounded-2xl object-cover	 border-slate-100 border"
-            src="/ukFlag.png"
+            className=" w-full h-48 shadow-md rounded-2xl border-slate-100 border"
+            src="/ukFlag.png" height={400}
           />
           <div className=" flex flex-col gap2 py-2">
           <h1 className=" font-semibold text-xl text-center">English</h1>
@@ -35,8 +35,8 @@ export default function CardsPage() {
         </div>
         <div className=" w-full  flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12">
           <img
-            className=" w-full h-auto shadow-md rounded-2xl border-slate-100 border"
-            src="/esFlag.png"
+            className=" w-full h-48 shadow-md rounded-2xl border-slate-100 border"
+            src="/esFlag.png" height={400}
           />
           <div className=" flex flex-col gap2 py-2">
           <h1 className=" font-semibold text-xl text-center">Spanish</h1>
@@ -50,8 +50,8 @@ export default function CardsPage() {
         </div>
         <div className=" w-full flex flex-col justify-between items-center bg-slate-400 bg-opacity-20 rounded-2xl pt-12 pb-5 px-12">
           <img
-            className=" w-full h-auto shadow-md rounded-2xl border-slate-100 border"
-            src="/frFlag.png"
+            className=" w-full h-48 shadow-md rounded-2xl border-slate-100 border"
+            src="/frFlag.png" height={400}
           />
           <div className=" flex flex-col gap2 py-2">
           <h1 className=" font-semibold text-xl text-center">French</h1>
